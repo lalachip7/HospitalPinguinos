@@ -1,0 +1,480 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-16T12:59:07Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+D:/Documents/CDP/PrimerPersonaje
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+63062
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Documents/CDP/PrimerPersonaje
+D:/Documents/CDP/PrimerPersonaje
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26952]  Target information:
+
+Player connection [26952]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 2562679034 [EditorId] 2562679034 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26952]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2562679034 [EditorId] 2562679034 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26952] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26952] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/CDP/PrimerPersonaje/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   32.0.21033.3005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002235 seconds.
+- Loaded All Assemblies, in  0.291 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 549ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling: 1645ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (899ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6404 unused Assets / (6.3 MB). Loaded Objects now: 7065.
+Memory consumption went from 137.8 MB to 131.4 MB.
+Total: 7.029000 ms (FindLiveObjects: 0.558900 ms CreateObjectMapping: 0.255000 ms MarkObjects: 3.890600 ms  DeleteObjects: 2.324000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 398861.604378 seconds.
+  path: Assets/Cosmic_Retro_Station_Props_FREE/Prefabs
+  artifactKey: Guid(0717e58712b835042b691882069292c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cosmic_Retro_Station_Props_FREE/Prefabs using Guid(0717e58712b835042b691882069292c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b950c20b5ecaf2b5f0780808fe4d2f') in 0.0040175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042325 seconds.
+  path: Assets/Cosmic_Retro_Station_Props_FREE/Prefabs/CR_Chair_Medium.prefab
+  artifactKey: Guid(4e9393cc7d45f7c46bdd8ec37575ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cosmic_Retro_Station_Props_FREE/Prefabs/CR_Chair_Medium.prefab using Guid(4e9393cc7d45f7c46bdd8ec37575ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dc5adcd0752a1cf831901514dc1eea9') in 0.3901577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.362792 seconds.
+  path: Assets/GoldenFrame_Terminal_FREE
+  artifactKey: Guid(6fc52277681616b49a1d9ad7ca678ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoldenFrame_Terminal_FREE using Guid(6fc52277681616b49a1d9ad7ca678ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a72419ca4bad45ba5e2fa3a680258a') in 0.0005585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.483011 seconds.
+  path: Assets/GoldenFrame_Terminal_FREE/Prefabs/Cosmic_Retro_Computer2_13.prefab
+  artifactKey: Guid(f6008182cadd0874c9cfcbfb0049505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoldenFrame_Terminal_FREE/Prefabs/Cosmic_Retro_Computer2_13.prefab using Guid(f6008182cadd0874c9cfcbfb0049505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '311c3763518d174c6f580abcc56f972a') in 0.0110623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.073789 seconds.
+  path: Assets/G_Forge
+  artifactKey: Guid(0bd740fd8f1a75740a1d2aa066fd772c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge using Guid(0bd740fd8f1a75740a1d2aa066fd772c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236d2291ab2c8b7899fb51244dbb48dd') in 0.0004695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.297120 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]
+  artifactKey: Guid(5f71c72bb8ae3ac4498064128e61eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO] using Guid(5f71c72bb8ae3ac4498064128e61eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74ee107127066100cca73c8f06101ea6') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.434221 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs
+  artifactKey: Guid(bba753850adf4b64fac296d12c63eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs using Guid(bba753850adf4b64fac296d12c63eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '284abd849104d9b144489d30188512cf') in 0.0004241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066179 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Bed_A_01_Prefab.prefab
+  artifactKey: Guid(04738ca0980bbc04383efbd9aed3b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Bed_A_01_Prefab.prefab using Guid(04738ca0980bbc04383efbd9aed3b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfa6def33fc0cc391c001a40deb1bef') in 2.7691446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Shelf_B_01_Prefab.prefab
+  artifactKey: Guid(9d8ff9d49386ce348843363892d7710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Shelf_B_01_Prefab.prefab using Guid(9d8ff9d49386ce348843363892d7710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '742f70e3d71865aec95af044c30f0057') in 0.0194404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Books_A_03_Prefab.prefab
+  artifactKey: Guid(f1f976dd6cfffed4c80dff55495924ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Books_A_03_Prefab.prefab using Guid(f1f976dd6cfffed4c80dff55495924ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a17927b643b99b0d0855acfcaeaf4607') in 0.0168363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Locker_A_02_Prefab.prefab
+  artifactKey: Guid(a39979f1204e88e4a9a572b04fc74644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Prefabs/Locker_A_02_Prefab.prefab using Guid(a39979f1204e88e4a9a572b04fc74644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0a8c89d5d238fdc19b0527a7a39dde') in 2.179659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.783745 seconds.
+  path: Assets/BehaviourAPI Unity Package
+  artifactKey: Guid(2caf8e6cd940d7b47bd7d4c22bf83465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourAPI Unity Package using Guid(2caf8e6cd940d7b47bd7d4c22bf83465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d196ec83b5082db43b49e1907fa35d5') in 0.0004626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.572064 seconds.
+  path: Assets/G_Forge/Shared Assets
+  artifactKey: Guid(44cbf62e877f3974ea04c340cece99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Shared Assets using Guid(44cbf62e877f3974ea04c340cece99d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f11683c38d4afb01e28ec445b36b71b') in 0.0004774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064185 seconds.
+  path: Assets/G_Forge/Shared Assets/PostProcessing.asset
+  artifactKey: Guid(dfc489c69fcf4d648ada3870f752cf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Shared Assets/PostProcessing.asset using Guid(dfc489c69fcf4d648ada3870f752cf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ac966ae5b14e853a3f3fd1181b742ed') in 0.0012782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.013693 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/Low_Poly_Hospital_Bed_No_Textures.usdz
+  artifactKey: Guid(4d9b4beb637ecb049a3fa91613679e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/Low_Poly_Hospital_Bed_No_Textures.usdz using Guid(4d9b4beb637ecb049a3fa91613679e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4030f758e9a3181199754f21c45f4899') in 0.0011179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.524410 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures
+  artifactKey: Guid(229e75c1994debd469b61df5a06ce617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures using Guid(229e75c1994debd469b61df5a06ce617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f21e1a67860236f94666f349b81fb4f9') in 0.0004225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.572052 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/license.txt
+  artifactKey: Guid(a4464796e246ee94884fc95a7ba5210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/license.txt using Guid(a4464796e246ee94884fc95a7ba5210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa82990f6e9db82959d342eff4779c0') in 0.0008861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.720689 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/scene.gltf
+  artifactKey: Guid(f66cbb02fa263084d8107869f35232a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/scene.gltf using Guid(f66cbb02fa263084d8107869f35232a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '693d62ab18742dcae3a5670240728cd2') in 0.0007595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.597456 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/scene.bin
+  artifactKey: Guid(6ac6518f04fe8a34f8778dcb6e59d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures/scene.bin using Guid(6ac6518f04fe8a34f8778dcb6e59d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0775eb8b313e1a258984bf57e856a9c') in 0.0007499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.575840 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures.glb
+  artifactKey: Guid(2ea9dc4b7393c0f46926c67e22925030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/low_poly_hospital_bed_no_textures.glb using Guid(2ea9dc4b7393c0f46926c67e22925030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41725f50a517eb00d336db9ab5a7eb28') in 0.0007904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.530440 seconds.
+  path: Assets/G_Forge/Shared Assets/Textures/T_Palette.png
+  artifactKey: Guid(feb6a112164948c458d574d30335160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/G_Forge/Shared Assets/Textures/T_Palette.png using Guid(feb6a112164948c458d574d30335160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05092dea7c6eac6047f8ffd940afd527') in 0.0201103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1057ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (925ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (779ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6404 unused Assets / (6.3 MB). Loaded Objects now: 7119.
+Memory consumption went from 167.2 MB to 160.9 MB.
+Total: 7.403400 ms (FindLiveObjects: 0.607800 ms CreateObjectMapping: 0.360300 ms MarkObjects: 4.038800 ms  DeleteObjects: 2.395800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 867.916973 seconds.
+  path: Assets/Free Wood Door Pack
+  artifactKey: Guid(60424ffe7d68fdc4a94a42ee94013f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack using Guid(60424ffe7d68fdc4a94a42ee94013f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c46fcb6d8f706641e6de63e8e782ae') in 0.0014932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.094000 seconds.
+  path: Assets/Free Wood Door Pack/Prefab
+  artifactKey: Guid(90eaf436287913a409779cddc247b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab using Guid(90eaf436287913a409779cddc247b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e926f3f15a7d6e5a734373f3ad14ff30') in 0.0005082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.081690 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood
+  artifactKey: Guid(cc3166f6acf83eb4ab14ae55d6abc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood using Guid(cc3166f6acf83eb4ab14ae55d6abc481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79543f58306da7ff00f6e0bccc1ce282') in 0.0004491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.564646 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1
+  artifactKey: Guid(37c4c309fe22d054cabb864efdff3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1 using Guid(37c4c309fe22d054cabb864efdff3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb66dcd5a8f20713929030b5b326af2') in 0.0004346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047893 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Black.prefab
+  artifactKey: Guid(b5a5a17dc3a6d9e47bd468828a2dec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Black.prefab using Guid(b5a5a17dc3a6d9e47bd468828a2dec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28223f2507d185c810ffd12bf23a17d7') in 0.430248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Yellow.prefab
+  artifactKey: Guid(c92cdb9d3b3e15f4b99ce98fe4c864b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Yellow.prefab using Guid(c92cdb9d3b3e15f4b99ce98fe4c864b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56a3a07c05adf8d131769c39b084c0ae') in 0.0290674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Coffe.prefab
+  artifactKey: Guid(07a82e97a5029824f80d55c3952e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Coffe.prefab using Guid(07a82e97a5029824f80d55c3952e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dde01f7f24ad0bb777c30b1941aeb98') in 0.0287408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.002448 seconds.
+  path: Assets/Free Wood Door Pack/Mesh/Knob_2.FBX
+  artifactKey: Guid(8fb3d1c2ac3340f468df743c47190f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Mesh/Knob_2.FBX using Guid(8fb3d1c2ac3340f468df743c47190f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4598acec5d56942afcdc45b73f78c7fb') in 0.0882051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

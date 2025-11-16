@@ -1,0 +1,1408 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-16T14:12:18Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+D:/Documents/CDP/PrimerPersonaje
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+63062
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Documents/CDP/PrimerPersonaje
+D:/Documents/CDP/PrimerPersonaje
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42960]  Target information:
+
+Player connection [42960]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 2623502939 [EditorId] 2623502939 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42960]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2623502939 [EditorId] 2623502939 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 300.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/CDP/PrimerPersonaje/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   32.0.21033.3005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003570 seconds.
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.349 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.902 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.MonoMethodInfo:get_parameter_info <0x00078>
+	  at System.Reflection.MonoMethodInfo:GetParametersInfo <0x00022>
+	  at System.Reflection.RuntimeConstructorInfo:GetParameters <0x00022>
+	  at BehaviourAPI.UnityToolkit.GUIDesigner.Editor.APITypeMetadata:IsValidType <0x00087>
+	  at BehaviourAPI.UnityToolkit.GUIDesigner.Editor.APITypeMetadata:.ctor <0x005fa>
+	  at BehaviourAPI.UnityToolkit.GUIDesigner.Editor.BehaviourAPISettings:ReloadAssemblies <0x00042>
+	  at BehaviourAPI.UnityToolkit.GUIDesigner.Editor.EditorSettings:.cctor <0x00122>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00069>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x0003a>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x0080a>
+	  at <Module>:runtime_invoke_void_object <0x00087>
+=================================================================
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.824 seconds
+Domain Reload Profiling: 14706ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (12652ms)
+		LoadAssemblies (12512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1174ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6406 unused Assets / (6.3 MB). Loaded Objects now: 7071.
+Memory consumption went from 135.5 MB to 129.2 MB.
+Total: 11.641400 ms (FindLiveObjects: 1.059800 ms CreateObjectMapping: 0.836200 ms MarkObjects: 4.722000 ms  DeleteObjects: 5.022600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 403270.204581 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Fonts/Simply Glamorous.ttf
+  artifactKey: Guid(db8bf71bb1f85e7409dae4b81f7d659d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Fonts/Simply Glamorous.ttf using Guid(db8bf71bb1f85e7409dae4b81f7d659d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '372a52760885cb697764fef6344b6dfc') in 0.1881844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Materials/eggplant slice.mat
+  artifactKey: Guid(77754402a6f76dd498b9cb00c432bd71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Materials/eggplant slice.mat using Guid(77754402a6f76dd498b9cb00c432bd71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2f155d6d8445e718a8d8bffc118541b') in 0.0780988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_11/Door_11_AO.tga
+  artifactKey: Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_11/Door_11_AO.tga using Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ead0d99a859553d54e4cb8b17cd538c') in 0.0471291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepperoni slice.png
+  artifactKey: Guid(81a39b81603674d4fa7760d1fdd5abdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepperoni slice.png using Guid(81a39b81603674d4fa7760d1fdd5abdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46229955136bea321d2f8d3a0225c2fb') in 0.0152075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/RecipePaper.cs
+  artifactKey: Guid(f43f284444b05c84baf2b7ce4888abb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/RecipePaper.cs using Guid(f43f284444b05c84baf2b7ce4888abb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29e80a8128608e254d1e78324c2b9e2f') in 0.0150368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Recipe.cs
+  artifactKey: Guid(8292917ac7df18e499e94fbcf113ff13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Recipe.cs using Guid(8292917ac7df18e499e94fbcf113ff13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2495932adee95e1c7f9c9d8c5a3ef8c') in 0.0112461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Animations/Throwing.anim
+  artifactKey: Guid(bdef8219bf8570940ae7753077b80d03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Animations/Throwing.anim using Guid(bdef8219bf8570940ae7753077b80d03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c7eeb09eb63f83414f61ffc66982b0f') in 0.0206763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/tomato slice.png
+  artifactKey: Guid(a0e93d39caa865f45b9d24d1c57dd077) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/tomato slice.png using Guid(a0e93d39caa865f45b9d24d1c57dd077) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30a9d0f158fc258589b857875ccbf34b') in 0.0153846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Ingredient.cs
+  artifactKey: Guid(919a4660c8acf4e4cbc5d0cfb3e15f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Ingredient.cs using Guid(919a4660c8acf4e4cbc5d0cfb3e15f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f504abf368a0adae23623cc03512801c') in 0.0124937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pineapple slice.png
+  artifactKey: Guid(470cde73498cb9d4795ca09a9007cf5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pineapple slice.png using Guid(470cde73498cb9d4795ca09a9007cf5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6470de350ea111f15db2af305c8bd794') in 0.0161286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Models/fishingRod.obj
+  artifactKey: Guid(84916bac2b1eef94cb479b1ef2be47f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Models/fishingRod.obj using Guid(84916bac2b1eef94cb479b1ef2be47f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9b3b15db93466229526b5c04ba50157') in 0.2128056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Prefabs/Old boot.prefab
+  artifactKey: Guid(273a344fd2f2c1e4984ab8bc8754d7e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Prefabs/Old boot.prefab using Guid(273a344fd2f2c1e4984ab8bc8754d7e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55d232bb6731263ec9747b5546165972') in 0.0919213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TMI - Kitchen/Models/microwave door.mtl
+  artifactKey: Guid(968459b5f7f7f6c4c9c3f65803c8c820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TMI - Kitchen/Models/microwave door.mtl using Guid(968459b5f7f7f6c4c9c3f65803c8c820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a7eb0e3b5d295dbc8d86cd7db9850ce') in 0.0134174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Meshes/Clock_WallRound.fbx
+  artifactKey: Guid(95dae2e3910c6c54cb51e51cecf92fcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Meshes/Clock_WallRound.fbx using Guid(95dae2e3910c6c54cb51e51cecf92fcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e56707ff2d90e8a480202babd0240127') in 0.0402818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Common/Textures/restart_button.png
+  artifactKey: Guid(8c1d1f3646397cc44bf2c2aff30fe74e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Common/Textures/restart_button.png using Guid(8c1d1f3646397cc44bf2c2aff30fe74e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94c1d4101eadbdba69d90b1cc8cde6f0') in 0.0282702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/RestartButton.cs
+  artifactKey: Guid(b57e1bf202f077340a42f2d2a334e18c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/RestartButton.cs using Guid(b57e1bf202f077340a42f2d2a334e18c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f28212cc4e6f9129a8bf54ad049f698d') in 0.4315282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Textures/Explosion6.png
+  artifactKey: Guid(23d44c2a744665249aa1fedda3b9df37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Textures/Explosion6.png using Guid(23d44c2a744665249aa1fedda3b9df37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a9fa9977d7bc245cedfc7b2e3d11e2d') in 0.1348588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/ambulance.fbx
+  artifactKey: Guid(dede0bc757807f244be9d02171ea310f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/ambulance.fbx using Guid(dede0bc757807f244be9d02171ea310f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2976c427246f28649aaab91616b4f7c6') in 0.0943934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/firetruck.fbx
+  artifactKey: Guid(ebaa4c179ae376f489c71b16b81b8983) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/firetruck.fbx using Guid(ebaa4c179ae376f489c71b16b81b8983) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd18a5eca30db8447171deeefe9d07bb4') in 0.1670513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/DestroyEffect.cs
+  artifactKey: Guid(88b9b11ad00a01e44aa1c4d1ab3954eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/DestroyEffect.cs using Guid(88b9b11ad00a01e44aa1c4d1ab3954eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '794137090ffb03423e6b41ff1e71c8d2') in 0.0112887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Common/Prefabs/Test boy BT.prefab
+  artifactKey: Guid(e3391db9a3c6a51488aaa9ea5bfae244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Common/Prefabs/Test boy BT.prefab using Guid(e3391db9a3c6a51488aaa9ea5bfae244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59c601898ab67434555df59c5465f9e2') in 0.0313004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/taxi.fbx
+  artifactKey: Guid(733ff0e584a966d4e8955a32e34a0a08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/taxi.fbx using Guid(733ff0e584a966d4e8955a32e34a0a08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b24213069bd251c69239698330f99d3') in 0.0515552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Sounds/door_open.wav
+  artifactKey: Guid(24139dc6952d31f4486ec25245533cb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Sounds/door_open.wav using Guid(24139dc6952d31f4486ec25245533cb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a17d853c3276e58cf383cab27479bbf') in 0.0375744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Materials/GuardRailMat.mat
+  artifactKey: Guid(fd7c9158d78c14b43ba4dfda8af7afa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Materials/GuardRailMat.mat using Guid(fd7c9158d78c14b43ba4dfda8af7afa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87fd9f7d3482ba6fed5dae1520f3b869') in 0.0231524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Common/Textures/Skybox.png
+  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Common/Textures/Skybox.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2863b3678d7d399887a3e55042e24803') in 0.0231719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_blue.mat
+  artifactKey: Guid(ce16af9a06173354a8c4c9cdba273759) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_blue.mat using Guid(ce16af9a06173354a8c4c9cdba273759) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '984e1920820a1a2f2c3f8372ca3ce7b1') in 0.0202891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Textures/tree_diffuse.png
+  artifactKey: Guid(ea2fd5e2eb7e26540a8be566f5ee132b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Textures/tree_diffuse.png using Guid(ea2fd5e2eb7e26540a8be566f5ee132b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3840df384fe53373470b09442ddfab9') in 0.4732391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(03a80449306c92f42ae1e38d0f560559) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Prefabs/Oak_Tree.prefab using Guid(03a80449306c92f42ae1e38d0f560559) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c9d2f412275a8cbb62d0fdc01dd20ee') in 0.0408192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Models/TropicalFish02.obj
+  artifactKey: Guid(44f4959300e21dc41a3ae81ce75e890d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Models/TropicalFish02.obj using Guid(44f4959300e21dc41a3ae81ce75e890d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd13e51e18ce75bf2c6adcbdf9a4bbab7') in 0.0150439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/DestroyVehicles.cs
+  artifactKey: Guid(bb763102a76caca47a0b22d03b4b7208) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/DestroyVehicles.cs using Guid(bb763102a76caca47a0b22d03b4b7208) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16ddf040c23f0b57cc882622638103f5') in 0.0107358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Prefabs/Chicken.prefab
+  artifactKey: Guid(aa3784adb6428184e991be2d60ee0cb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Prefabs/Chicken.prefab using Guid(aa3784adb6428184e991be2d60ee0cb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b147380968fc4c26d665f4d3a252be58') in 0.0593686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/FSM demo (editor)/NavMesh.asset
+  artifactKey: Guid(ec153c796241de84fbca30f0417bcf0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/FSM demo (editor)/NavMesh.asset using Guid(ec153c796241de84fbca30f0417bcf0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337293bcb87d6b961c14f7fa673765ef') in 0.0179445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/benchCushion.fbx
+  artifactKey: Guid(b90c8901f05d338429dbb042f54e4520) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/benchCushion.fbx using Guid(b90c8901f05d338429dbb042f54e4520) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c7bbe9a1e1de11cf06b680e6bd9dbc0') in 0.0263229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Status.cs
+  artifactKey: Guid(768c8e096d7e2c04cb948f44e1738e3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Status.cs using Guid(768c8e096d7e2c04cb948f44e1738e3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2ebd31182cc22121235d056039f5843') in 0.0100495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Script/Door.cs
+  artifactKey: Guid(731917776111cfd4e8e238be7a676f44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Script/Door.cs using Guid(731917776111cfd4e8e238be7a676f44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e80d8f5dff37617f83fdb1140bc32e15') in 0.0118745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TMI - Kitchen/Models/chair.mtl
+  artifactKey: Guid(b19e1ecaa01b71b4ab24c4c9cbc4899b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TMI - Kitchen/Models/chair.mtl using Guid(b19e1ecaa01b71b4ab24c4c9cbc4899b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cef498ff722978fb7e05a4b3ebb57f6') in 0.0102281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Venge.mat
+  artifactKey: Guid(208abbeffe6b05e4a9b6b8c2be45ebda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Venge.mat using Guid(208abbeffe6b05e4a9b6b8c2be45ebda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc909f8d600ab803fe51743a11cbcd74') in 0.0478497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Performance test/TestRunner.cs
+  artifactKey: Guid(ff23e0177b6a2604ab5081201c029dec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Performance test/TestRunner.cs using Guid(ff23e0177b6a2604ab5081201c029dec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bb7e79900ad15b045675e07157e9ef1') in 0.0117427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/SmartObjects/SmartInteraction.cs
+  artifactKey: Guid(9a01d6e97ad6a2d49afefe15fe6ae15c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/SmartObjects/SmartInteraction.cs using Guid(9a01d6e97ad6a2d49afefe15fe6ae15c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fab2c09d834e5217ca34ddb7d12d8f8') in 0.0101187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Components/BasicSpriteComponent.cs
+  artifactKey: Guid(5f7c5715c1440cd469a6ab18993a6d70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Components/BasicSpriteComponent.cs using Guid(5f7c5715c1440cd469a6ab18993a6d70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5abf26f1ffa008c988d2b72cdf3ce278') in 0.0104371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/PottedPlant_Small_1.prefab
+  artifactKey: Guid(4b46373ced144de46ad9a0db1bb99f47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/Prefabs/PottedPlant_Small_1.prefab using Guid(4b46373ced144de46ad9a0db1bb99f47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c5fd48f35bb85c5652fa814d615050e') in 0.9530061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.503856 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/cabinetBedDrawer.fbx
+  artifactKey: Guid(056b9691a1d9be94b813a95f9c71f4ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/cabinetBedDrawer.fbx using Guid(056b9691a1d9be94b813a95f9c71f4ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '421e96374bc67e5c27b7a4ce1dfe4380') in 0.0463343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_BathroomDrawer.prefab
+  artifactKey: Guid(1892669f17896e4429ba41087d8f7bb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_BathroomDrawer.prefab using Guid(1892669f17896e4429ba41087d8f7bb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d2774586ea4f3158528da6a6acae060') in 0.0528921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/wall.fbx
+  artifactKey: Guid(a9d72079bb82a0a429e18e45fdc7c0ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/wall.fbx using Guid(a9d72079bb82a0a429e18e45fdc7c0ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd358f69f8b254b4cbf8afb645f4db574') in 0.0245211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SeatManager.cs
+  artifactKey: Guid(f743b40f1db9ffc4a98e7e135791a595) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SeatManager.cs using Guid(f743b40f1db9ffc4a98e7e135791a595) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7244e824010190d532fa191a4a79921') in 0.0141805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_FridgeSmall.prefab
+  artifactKey: Guid(0816d331ca5657744929511e2ad88ab0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_FridgeSmall.prefab using Guid(0816d331ca5657744929511e2ad88ab0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13bdc10ead1fcb499a64614440c83c27') in 0.0396987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/computerScreen.fbx
+  artifactKey: Guid(5da5b60c83d5914479ff1cf1fbd718b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/computerScreen.fbx using Guid(5da5b60c83d5914479ff1cf1fbd718b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d19027208cc80f380c0bc06ebc1bb1') in 0.0183603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/IBehaviourSystem.cs
+  artifactKey: Guid(cf190a4223fdedf4a955c49211be2108) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/IBehaviourSystem.cs using Guid(cf190a4223fdedf4a955c49211be2108) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31c170e66da7139559b7b3fbd61aef71') in 0.0102099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/floorFull.fbx
+  artifactKey: Guid(e2329ec6104e2e24eb6b1c5ee3d3cf40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/floorFull.fbx using Guid(e2329ec6104e2e24eb6b1c5ee3d3cf40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '483c312d10797fe8883ce3d481d79019') in 0.0247566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Debugging/BSRuntimeEventHandler.cs
+  artifactKey: Guid(0134e6973c3e2264a8c09d4ee266ec5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Debugging/BSRuntimeEventHandler.cs using Guid(0134e6973c3e2264a8c09d4ee266ec5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7b0a22a839a8d614d67fb9302699fa9') in 0.0128899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/rugRound.fbx
+  artifactKey: Guid(331d2145e3e04a54d97883ee2a9ce4d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/rugRound.fbx using Guid(331d2145e3e04a54d97883ee2a9ce4d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7eb3446d9b2c0d1f1ebb94fc11a7212') in 0.0292723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableRound.fbx
+  artifactKey: Guid(c461b24699f5dd640b6a847db644032b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableRound.fbx using Guid(c461b24699f5dd640b6a847db644032b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '784088a46ce8dd245275d525c7c11f15') in 0.031924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Black.prefab
+  artifactKey: Guid(09e934849f7028c45bb17c3078f98c76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Black.prefab using Guid(09e934849f7028c45bb17c3078f98c76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23bec13342f1580320c8072f01df9d07') in 0.063585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_White.prefab
+  artifactKey: Guid(5e08903f5871a1c4f9392554fdb17c50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_White.prefab using Guid(5e08903f5871a1c4f9392554fdb17c50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00486dbb1fdd49bec84fc73430b2158b') in 0.0762515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Yellow.prefab
+  artifactKey: Guid(79df8ee397ac0bb4c87e111ce9fccb0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Yellow.prefab using Guid(79df8ee397ac0bb4c87e111ce9fccb0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc98faff425a88a789ba4a8aa140574d') in 0.0331849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_White.prefab
+  artifactKey: Guid(6c4e3e16c97e2ac458aae0576657517a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_White.prefab using Guid(6c4e3e16c97e2ac458aae0576657517a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed3159cb05104f134d99a18496fe9680') in 0.0330043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Venge.prefab
+  artifactKey: Guid(e4f71263175cfd5439e5843d920dfee3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Venge.prefab using Guid(e4f71263175cfd5439e5843d920dfee3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bf4c7459f6ff8b402a04055eebb2b62') in 0.0347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Milk.prefab
+  artifactKey: Guid(02be4024a2d9b4c4c99a0de0d7a5acd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Milk.prefab using Guid(02be4024a2d9b4c4c99a0de0d7a5acd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f6a91ba8b13c5f095cf45e19107682c') in 0.3917808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/CompoundAction.cs
+  artifactKey: Guid(d48d4047622748544bba03d6d5d2ebe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/CompoundAction.cs using Guid(d48d4047622748544bba03d6d5d2ebe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d646d3b45b1a8db3d7c2dba575f7f34') in 0.0131414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_White.prefab
+  artifactKey: Guid(0d14cbb38e9cb274aa98f316acbd10cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_White.prefab using Guid(0d14cbb38e9cb274aa98f316acbd10cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71a2688c9c55a08e77334f7c19c82a0c') in 0.2067369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/FunctionalAction.cs
+  artifactKey: Guid(e6f5e377823a36b43a56df76e179d428) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/FunctionalAction.cs using Guid(e6f5e377823a36b43a56df76e179d428) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84da6d9776fdbc2e320ac221c1d4cd16') in 0.011472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Perceptions/AndPerception.cs
+  artifactKey: Guid(49d9bc427f622c74893718502fbf2086) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Perceptions/AndPerception.cs using Guid(49d9bc427f622c74893718502fbf2086) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '752ea62b8ae715f64aeff36899f785a9') in 0.0109521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/SerialAction.cs
+  artifactKey: Guid(847261919e222dd449849c1cc0ab3dba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/SerialAction.cs using Guid(847261919e222dd449849c1cc0ab3dba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e223236ce721a2293f8077fab8710c91') in 0.0112888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Milk.prefab
+  artifactKey: Guid(e5615ec93b2768848951bcc7076cfe8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Milk.prefab using Guid(e5615ec93b2768848951bcc7076cfe8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e087d635b687606d0bddd91ba2e7cfa') in 0.034454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/DecoratorNode.cs
+  artifactKey: Guid(b9a3e481e5d28cc41b39a487f2ca636e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/DecoratorNode.cs using Guid(b9a3e481e5d28cc41b39a487f2ca636e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4df4b41d80bd8c36b05fbd9abe3bc792') in 0.0111283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Milk.prefab
+  artifactKey: Guid(854402e145e371548a6de06789d16e48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Milk.prefab using Guid(854402e145e371548a6de06789d16e48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0e9556b194dd02b96d5713307d4daf4') in 0.0337683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Black.prefab
+  artifactKey: Guid(671eafa5fe39f0d43bac8b36bfc68d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Black.prefab using Guid(671eafa5fe39f0d43bac8b36bfc68d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c22b6c9dd75574cc7ebbd2be557ad99c') in 0.583538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/UtilityElements/UtilityBucket.cs
+  artifactKey: Guid(f550fb2b3c7d6644ea8388db507bf311) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/UtilityElements/UtilityBucket.cs using Guid(f550fb2b3c7d6644ea8388db507bf311) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5afdef39b4e088b4a9f736eb2503dab2') in 0.00925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab
+  artifactKey: Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab using Guid(ba907d7a8d489d249b23cdd63f1cd0c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c54b73dc4900f615d6e22c0764d75430') in 0.0306453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Milk.prefab
+  artifactKey: Guid(4246bfcb6099dbb40a418d2849bff926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Milk.prefab using Guid(4246bfcb6099dbb40a418d2849bff926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48c45d5727789791797f7bef6721f860') in 0.0329721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Black.prefab
+  artifactKey: Guid(6cfb2f34469a9214baa637a41fe00913) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Black.prefab using Guid(6cfb2f34469a9214baa637a41fe00913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e65028938cd975dd314e5c177d090c57') in 0.0328291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Scenes/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(46e8d801c526d984599374745eb99da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/G_Forge/Sci-Fi Room - Low-Poly Asset Pack 01 [DEMO]/Scenes/DemoScene/ReflectionProbe-0.exr using Guid(46e8d801c526d984599374745eb99da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd89b64ca95d41125a4a21aedf13d8f07') in 0.0221528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/StateMachines/StackFSMs/PushTransition.cs
+  artifactKey: Guid(18a2ee47d374f00449b8a1f50196728e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/StateMachines/StackFSMs/PushTransition.cs using Guid(18a2ee47d374f00449b8a1f50196728e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd306f0a02432b8138772ef056c5f3188') in 0.0091095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Venge.prefab
+  artifactKey: Guid(36fd62b71d5f9b14588b21fd95201747) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Venge.prefab using Guid(36fd62b71d5f9b14588b21fd95201747) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4da8d21b8a9f2e598fbc1e2c51c5c506') in 0.0311875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Yellow.prefab
+  artifactKey: Guid(c92cdb9d3b3e15f4b99ce98fe4c864b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Yellow.prefab using Guid(c92cdb9d3b3e15f4b99ce98fe4c864b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd254dcc0210893759567f1f050a0925') in 0.0314454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_White.prefab
+  artifactKey: Guid(58da3cc45ce31a449a52ffb1cc83acb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_White.prefab using Guid(58da3cc45ce31a449a52ffb1cc83acb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '268fec2b7831717eab9334986ed87642') in 0.0359503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/InverterNode.cs
+  artifactKey: Guid(52649704c518644499a889f4ee6548c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/InverterNode.cs using Guid(52649704c518644499a889f4ee6548c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e968232f988cf8efad15b133d6c710b6') in 0.0112665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableCrossCloth.fbx
+  artifactKey: Guid(179e08a2c1732ad4f895bf7e4fa4712f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableCrossCloth.fbx using Guid(179e08a2c1732ad4f895bf7e4fa4712f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aca90fbfdcf3c1a59b18140aba9de35') in 0.092914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Milk.prefab
+  artifactKey: Guid(6dbf7837556bd9c40b3286134b17a930) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Milk.prefab using Guid(6dbf7837556bd9c40b3286134b17a930) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e742bc6144b70ee3f201e04b36a23177') in 0.045927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/ParallelAction.cs
+  artifactKey: Guid(03bf8073f7d73104f84933b081934232) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Actions/ParallelAction.cs using Guid(03bf8073f7d73104f84933b081934232) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '911d8b5b45701c213d9a71206743e527') in 0.0096141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/UtilityElements/UtilityExecutableNode.cs
+  artifactKey: Guid(80c8d288e653f274e941d9512adfae73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/UtilityElements/UtilityExecutableNode.cs using Guid(80c8d288e653f274e941d9512adfae73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32be3d42dcf45eef56adb91229d8df0f') in 0.0122494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/BehaviourRunners/EditorBehaviourRunner.cs
+  artifactKey: Guid(f7033c32493b38240a6a2c47736ac9c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/BehaviourRunners/EditorBehaviourRunner.cs using Guid(f7033c32493b38240a6a2c47736ac9c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57be6c7c3a393fb8bb20ad6e2d92ae44') in 0.0101278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/RandomBranchNode.cs
+  artifactKey: Guid(a000be9e60b60134dbc4f8b8228e70bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/RandomBranchNode.cs using Guid(a000be9e60b60134dbc4f8b8228e70bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b535570672cecccdd08a857446ea007') in 0.0100275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Yellow.prefab
+  artifactKey: Guid(05a8ff46373673a40af2c112ae04b20b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Yellow.prefab using Guid(05a8ff46373673a40af2c112ae04b20b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '003c0979cb9aebfae2461c3da64edb09') in 0.0292795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Radio.prefab
+  artifactKey: Guid(ab10ca4b5426de74d8fac42ce9eecbcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Radio.prefab using Guid(ab10ca4b5426de74d8fac42ce9eecbcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71d437737326df2ac4947d305a47beea') in 0.9535049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/ExecutionStatusException.cs
+  artifactKey: Guid(59ef91ce17a66e24a818a52652a03422) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/ExecutionStatusException.cs using Guid(59ef91ce17a66e24a818a52652a03422) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0d15c18342e88678539b8d3cd5f6289') in 0.0118554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/loungeSofa.fbx
+  artifactKey: Guid(c67445fcf6e7ba441ae406657f836d29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/loungeSofa.fbx using Guid(c67445fcf6e7ba441ae406657f836d29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e21f09948c27b5f0ff242e87d86716a4') in 0.0250819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Television.prefab
+  artifactKey: Guid(00c3934f6e2e27c4b9bef3a7ebd2e8cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Television.prefab using Guid(00c3934f6e2e27c4b9bef3a7ebd2e8cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99d8a4232a063bf3f141368146424bca') in 0.0350758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Utils/Utilities.cs
+  artifactKey: Guid(6659444854382dd49926b8b34a18ef56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Utils/Utilities.cs using Guid(6659444854382dd49926b8b34a18ef56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7df5a2ab5c0932e57b1d0c2e4f9cff3e') in 0.0118503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Black.prefab
+  artifactKey: Guid(b987c141bf79aed48b8438966c97286c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Black.prefab using Guid(b987c141bf79aed48b8438966c97286c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ac3732da0887d87b0b00ff21f4ebc15') in 0.0318278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/televisionModern.fbx
+  artifactKey: Guid(77e28b5a0ff89c648a7b16c54ae59d82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/televisionModern.fbx using Guid(77e28b5a0ff89c648a7b16c54ae59d82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fc94b14085f1c12309b7c1ee5515059') in 0.0210148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714641 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/Components/SmartObjectManager.cs
+  artifactKey: Guid(7f8df1f510261534c8356c71068a6844) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/Components/SmartObjectManager.cs using Guid(7f8df1f510261534c8356c71068a6844) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c4a14c025a0492a055fb5e20df1d94b') in 0.3040843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/PlayerBTInFSMEditorRunner.cs
+  artifactKey: Guid(f41b6d9c849e88a48b3b7969466f4749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/PlayerBTInFSMEditorRunner.cs using Guid(f41b6d9c849e88a48b3b7969466f4749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a0c9f3eb987981e62823a1f0a7809b0') in 0.0112713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Mushroom.prefab
+  artifactKey: Guid(2d540fc2b78aa524782061ba0a129e26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Mushroom.prefab using Guid(2d540fc2b78aa524782061ba0a129e26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ad062c1273f0bd9eb420157b844c247') in 0.0315822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Animations/Chicken/ChickenWalk.anim
+  artifactKey: Guid(20195977cbc32d24abb77c02040fd8cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Animations/Chicken/ChickenWalk.anim using Guid(20195977cbc32d24abb77c02040fd8cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d10ef9215561f7ef0aa9b741c337a93') in 0.0112709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ChickenSmartObject.cs
+  artifactKey: Guid(cd38917cf3177954ebf12f6c2a059428) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ChickenSmartObject.cs using Guid(cd38917cf3177954ebf12f6c2a059428) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3c028c08caf8aa4bed99548c38c20c') in 0.0099615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Settings/BehaviourAPISettingsProvider.cs
+  artifactKey: Guid(f8280f88a28b9314589f27be9b249566) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Settings/BehaviourAPISettingsProvider.cs using Guid(f8280f88a28b9314589f27be9b249566) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd14456280cf4e5cd20a783bbfacadcc1') in 0.0113633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Debug/DebugBreakAction.cs
+  artifactKey: Guid(235b7daf9502a134496064088091b1c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Debug/DebugBreakAction.cs using Guid(235b7daf9502a134496064088091b1c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20cda6d5af1afb5376ba80f0fe58e284') in 0.0124677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_childDrawing_02.mat
+  artifactKey: Guid(03cf9a873b9cf7743a7e5844d43589a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_childDrawing_02.mat using Guid(03cf9a873b9cf7743a7e5844d43589a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aec2df74d0a56bfa3cccc808bf1c9c3b') in 0.0302622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/PathingAction.cs
+  artifactKey: Guid(8a020fdcfcf1d734eb0770eef75c77dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/PathingAction.cs using Guid(8a020fdcfcf1d734eb0770eef75c77dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd76f95f6afff80dbb5c8280105234ca4') in 0.012299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/GraphIdentificatorAttribute.cs
+  artifactKey: Guid(1682737aaa8498f4ba3d219ad6e54368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/GraphIdentificatorAttribute.cs using Guid(1682737aaa8498f4ba3d219ad6e54368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1bf414d76f3f6010f048255f4a0d5bb') in 0.011339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Fonts/Cascadia.ttf
+  artifactKey: Guid(dc6198582757497419e94379ee1f8a04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Fonts/Cascadia.ttf using Guid(dc6198582757497419e94379ee1f8a04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a7ed9c33e8c4a8cd5fa5ebecb9fb179') in 0.0221952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_broom_brushBottom.mat
+  artifactKey: Guid(abb08850106aac8458c1dbbc0e22b8a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_broom_brushBottom.mat using Guid(abb08850106aac8458c1dbbc0e22b8a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '037e596744b16e58627ac6072f9bf632') in 0.0123417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Sprite/ChangeTintAction.cs
+  artifactKey: Guid(11777bfe43534424fba1a6a2f7bd439f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Sprite/ChangeTintAction.cs using Guid(11777bfe43534424fba1a6a2f7bd439f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '831a57f088d5f149ec0bd944b3a07261') in 0.011722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ShowerSmartObject.cs
+  artifactKey: Guid(340d956b2af2a2b46be8aae4eed879e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ShowerSmartObject.cs using Guid(340d956b2af2a2b46be8aae4eed879e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6b488d02acf81b2d1c6098f8c87bc55') in 0.0132764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/SubgraphAction.cs
+  artifactKey: Guid(dd4e1653f11ee72458457188f57d1e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/SubgraphAction.cs using Guid(dd4e1653f11ee72458457188f57d1e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c14ac8ab7dc40d257819ed667efc841') in 0.0118789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/ExponentialCurverFactor.cs
+  artifactKey: Guid(49be6f8de23af0d4abfa26e5ac5c1186) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/ExponentialCurverFactor.cs using Guid(49be6f8de23af0d4abfa26e5ac5c1186) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a385d0cd7330f95beca22c1ad3419fa3') in 0.0119738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Textures/hotPlates_01.png
+  artifactKey: Guid(6e44434cce6701c46b52b29fce679d76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Textures/hotPlates_01.png using Guid(6e44434cce6701c46b52b29fce679d76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6f743f2dbfbaafb73f74324ebbc9083') in 0.0317197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-hotPlates_hotPlates.mat
+  artifactKey: Guid(7ae0cdc24f8e6b84b9df31e631798843) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-hotPlates_hotPlates.mat using Guid(7ae0cdc24f8e6b84b9df31e631798843) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44498822ddd3c3461e8a677a00cbcda0') in 0.0122886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_metal.mat
+  artifactKey: Guid(dbbdb8024c8c4534fac6dab62403309d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_metal.mat using Guid(dbbdb8024c8c4534fac6dab62403309d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0134c36fd854449a911145f6bbddab4d') in 0.0108003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/Graphs/stackfsm.png
+  artifactKey: Guid(22932a192b766c8449c50aec8ec39e2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/Graphs/stackfsm.png using Guid(22932a192b766c8449c50aec8ec39e2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dee4512e4d70593b82b2d313fb6a9aa') in 0.0261627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/AssetBehaviourRunnerEditor.cs
+  artifactKey: Guid(ab1e22dd74c7f30419b67c3a1d2e4900) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/AssetBehaviourRunnerEditor.cs using Guid(ab1e22dd74c7f30419b67c3a1d2e4900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0839702fa3baf00b6b7c9d0dcc436f6') in 0.0118418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pineapple slice.prefab
+  artifactKey: Guid(bc78d9534d5d46a409a8c9e2caff5632) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pineapple slice.prefab using Guid(bc78d9534d5d46a409a8c9e2caff5632) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79abfda59a31a59a462b5de92282ce89') in 0.5254811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/PerceptionPropertyDrawer.cs
+  artifactKey: Guid(7319351b87b743a4eb8fee2e309383ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/PerceptionPropertyDrawer.cs using Guid(7319351b87b743a4eb8fee2e309383ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94af22f3e208e165e10d4bdbf16f2a94') in 0.0103592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/BehaviourRunners/DemoSORunner.cs
+  artifactKey: Guid(9e210cfc0979c2943a7887ab6157ad0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/BehaviourRunners/DemoSORunner.cs using Guid(9e210cfc0979c2943a7887ab6157ad0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4da19bac147e7f76ee00a4ec66bbe26') in 0.00991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/GraphCodeGenerator.cs
+  artifactKey: Guid(1e9ddc12e4b3f464097cef8dd34f34cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/GraphCodeGenerator.cs using Guid(1e9ddc12e4b3f464097cef8dd34f34cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9236dd8988cdf229b4a1959ccfea4b37') in 0.0124374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Visual/police (visual).prefab
+  artifactKey: Guid(c1c8b81deead46841b6efa2f5f3a4105) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Visual/police (visual).prefab using Guid(c1c8b81deead46841b6efa2f5f3a4105) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84d2ac5c39a561cf6c35ece6ee47af1f') in 1.2400427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_draw_01.mat
+  artifactKey: Guid(36911eb30b5436a4f81ef5641e977eaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_draw_01.mat using Guid(36911eb30b5436a4f81ef5641e977eaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef5cb3f5ddfe17d4f37f2007c6029640') in 0.0105482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/AppleSmartObject.cs
+  artifactKey: Guid(5ba1cf3f8ad57d74bb056eee05236200) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/AppleSmartObject.cs using Guid(5ba1cf3f8ad57d74bb056eee05236200) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3bcb4e483ee0f881e3fe53a8fda5ef6') in 0.0103976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/StateMachineAdapter.cs
+  artifactKey: Guid(c4a8fa9fd4b618f4aaec4566a26c5d1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/StateMachineAdapter.cs using Guid(c4a8fa9fd4b618f4aaec4566a26c5d1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7bae559b439140419e303cd9d8b4b1b') in 0.0123183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pepper.prefab
+  artifactKey: Guid(43b34e1c9a00bf84b8f65a7d8fa5785e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pepper.prefab using Guid(43b34e1c9a00bf84b8f65a7d8fa5785e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ead98de7460059ffed209ec1799d94f') in 0.0226569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Visual/van (visual).prefab
+  artifactKey: Guid(ddb0fd4dd489c2645b551cc0c874c676) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Visual/van (visual).prefab using Guid(ddb0fd4dd489c2645b551cc0c874c676) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '111a7e50903e8a0cc7001b16d0344e77') in 0.0422575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Common/Models/Materials/player_green.mat
+  artifactKey: Guid(22c11f341ead5354dabb39bfc478423e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Common/Models/Materials/player_green.mat using Guid(22c11f341ead5354dabb39bfc478423e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a07a07567d56a21bc0b72303d90cdcc9') in 0.0136886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/code.png
+  artifactKey: Guid(dd2972ab964903a44817886b07f1fe51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/code.png using Guid(dd2972ab964903a44817886b07f1fe51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aca10bfebb2c551827dc1f5367b5d7eb') in 0.0176351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_condenser.mat
+  artifactKey: Guid(4b80f0f75968dac48b6077af1fb6c96e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_condenser.mat using Guid(4b80f0f75968dac48b6077af1fb6c96e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd569800ef01b3e419e0f05350dd58353') in 0.0128819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_cuttingBoard_01.mat
+  artifactKey: Guid(5b6840dd9e0aa3f4299030d508c0a950) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_cuttingBoard_01.mat using Guid(5b6840dd9e0aa3f4299030d508c0a950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b665809e3075d8dbf1ce9a05d8999546') in 0.012242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-chukies_01.mat
+  artifactKey: Guid(5ebbc3a0dd2bf9048af1c25f14c29883) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-chukies_01.mat using Guid(5ebbc3a0dd2bf9048af1c25f14c29883) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa9e8477ac46c52aa411d57e55d1e726') in 0.0374944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_card_02.mat
+  artifactKey: Guid(16a69711b9c7e83408cebcfb65da99cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_card_02.mat using Guid(16a69711b9c7e83408cebcfb65da99cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9605c262d57dd4fce5790c82d8241fd3') in 0.0117502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/EdgeView.cs
+  artifactKey: Guid(6079a6bd452225440a3ae94d79c1fb57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/EdgeView.cs using Guid(6079a6bd452225440a3ae94d79c1fb57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38b64368e5371169b7d7372dca6fc874') in 0.0097386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Windows/Window panels/IPanelManager.cs
+  artifactKey: Guid(85187a0c52dda1f45ac3020a319a9775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Windows/Window panels/IPanelManager.cs using Guid(85187a0c52dda1f45ac3020a319a9775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f44b1f976c4658c01169d0ee2f673a0') in 0.7040652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_inox.mat
+  artifactKey: Guid(18553cea0aed01f4eb670868a1de00e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_inox.mat using Guid(18553cea0aed01f4eb670868a1de00e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bb2ea00b7c03779077ef67279327b6e') in 0.014336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/BehaviourRunners/ICar.cs
+  artifactKey: Guid(f5ca2a80c3881e044851af3911aad7f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/BehaviourRunners/ICar.cs using Guid(f5ca2a80c3881e044851af3911aad7f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ab3668a1ba9d285f605beee3b41aa0e') in 0.0136653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brush.mat
+  artifactKey: Guid(483c6ed8bc562dc46925a715586cdc3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brush.mat using Guid(483c6ed8bc562dc46925a715586cdc3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '054e99ed7ca6c64e13d5cd6df4f67061') in 0.0102396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Scripts/BehaviourRunners/FishingBoyBTVisualRunner.cs
+  artifactKey: Guid(e693077d91cc3394791faadbd922de3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Scripts/BehaviourRunners/FishingBoyBTVisualRunner.cs using Guid(e693077d91cc3394791faadbd922de3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '781b5b3a215eab5471148007605f5942') in 0.0114801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/BehaviourTreeAdapter.cs
+  artifactKey: Guid(8ca1407fa1682ff439325f07a4275441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/BehaviourTreeAdapter.cs using Guid(8ca1407fa1682ff439325f07a4275441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ee522499be4671a35bcb7c4e6a7c8f9') in 0.0110101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ToiletSmartObject.cs
+  artifactKey: Guid(f99b97a98ffc6f44d89977c4f37c1068) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ToiletSmartObject.cs using Guid(f99b97a98ffc6f44d89977c4f37c1068) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16908e5cb704a30753f6dc7a4eecbd69') in 0.0119046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/WalkAction.cs
+  artifactKey: Guid(786a2c1ddaeafa8478f4c5fba5785314) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/WalkAction.cs using Guid(786a2c1ddaeafa8478f4c5fba5785314) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9407a322fbcf1085d78ab519e08577c8') in 0.0114323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/CodeExpressions.cs
+  artifactKey: Guid(f81231544ab102945ba094081f6cc01d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/CodeExpressions.cs using Guid(f81231544ab102945ba094081f6cc01d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6958fb2f838696d46e448bb7a973b1ea') in 0.011137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/Build elements/IBuildable.cs
+  artifactKey: Guid(fd2a4cc12286bcc4ba67f6b93354dec0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/Build elements/IBuildable.cs using Guid(fd2a4cc12286bcc4ba67f6b93354dec0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44094a80f061f0d082a401522961586f') in 0.0111963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/PatrolAction.cs
+  artifactKey: Guid(b75f788c66650f545ac43fb9bbf68814) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Movement/PatrolAction.cs using Guid(b75f788c66650f545ac43fb9bbf68814) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38e94ff8d295946b7c72268a4f2382c3') in 0.011708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_grey.mat
+  artifactKey: Guid(087dfc108f1d9684d804d1b100ad276c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_grey.mat using Guid(087dfc108f1d9684d804d1b100ad276c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff8f62e6aadbed08175b131c225e85b2') in 0.0118022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Sprite/ChangeAlphaAction.cs
+  artifactKey: Guid(a664d26cb35d94f41a3d142d37c44bda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Tasks/Unity Actions/Sprite/ChangeAlphaAction.cs using Guid(a664d26cb35d94f41a3d142d37c44bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45975c708a816f9276a40f34c71bc8db') in 0.8540956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/BehaviourRunners/CarFSMAssetRunner.cs
+  artifactKey: Guid(c52e40fea89e22a4d962f06c613bf54e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Scripts/BehaviourRunners/CarFSMAssetRunner.cs using Guid(c52e40fea89e22a4d962f06c613bf54e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2097b6b042fdd49ca8d9f7a02287bee') in 0.0120674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Templates/UnityActionTemplate.cs.TXT
+  artifactKey: Guid(0d9a81d5d843e9e42aa2a88d8484f24e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Templates/UnityActionTemplate.cs.TXT using Guid(0d9a81d5d843e9e42aa2a88d8484f24e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ccf8731d5fd9630d1c72e65a17bd6e9') in 0.1374984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/SimpleAction.cs
+  artifactKey: Guid(467104fd23344d54091dd748a840c7b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Actions/SimpleAction.cs using Guid(467104fd23344d54091dd748a840c7b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '283563046b14f4430cf613ba1a2cfc67') in 0.0106726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/NodeDrawers/NodeDrawer.cs
+  artifactKey: Guid(a5e08b1dd77f0ca47aa0a51c9b188613) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/NodeDrawers/NodeDrawer.cs using Guid(a5e08b1dd77f0ca47aa0a51c9b188613) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6041fb59567de95e3b51d21dc15b2e54') in 0.010007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/LinearCurveFactor.cs
+  artifactKey: Guid(12ee1467c2aed5945a4b0ae620aaed92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/LinearCurveFactor.cs using Guid(12ee1467c2aed5945a4b0ae620aaed92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fcb4aab217a9a96c59764ef6720b9da') in 0.0110432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/delete.png
+  artifactKey: Guid(c046d8dc01bd1094a8de02bff5a4ece7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/Icons/delete.png using Guid(c046d8dc01bd1094a8de02bff5a4ece7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5236dd84fac81fad5133b4f61121e677') in 0.0155661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

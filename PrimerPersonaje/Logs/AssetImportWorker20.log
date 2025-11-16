@@ -1,0 +1,2599 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-16T14:12:18Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+D:/Documents/CDP/PrimerPersonaje
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+63062
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Documents/CDP/PrimerPersonaje
+D:/Documents/CDP/PrimerPersonaje
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36828]  Target information:
+
+Player connection [36828]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 4115692475 [EditorId] 4115692475 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36828]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4115692475 [EditorId] 4115692475 [Version] 1048832 [Id] WindowsEditor(7,TLALOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 300.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/CDP/PrimerPersonaje/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   32.0.21033.3005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003374 seconds.
+- Loaded All Assemblies, in  0.354 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 699ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (347ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.927 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.819 seconds
+Domain Reload Profiling: 14743ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (12697ms)
+		LoadAssemblies (12563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (1167ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6406 unused Assets / (6.2 MB). Loaded Objects now: 7071.
+Memory consumption went from 135.4 MB to 129.2 MB.
+Total: 14.096500 ms (FindLiveObjects: 0.879700 ms CreateObjectMapping: 0.629800 ms MarkObjects: 7.805100 ms  DeleteObjects: 4.780700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 403270.203595 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Editor/BehaviourAPI.UnityToolkit.Editor.asmdef
+  artifactKey: Guid(d1ed91b201c9bcb438fa1a248e0c6885) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/Editor/BehaviourAPI.UnityToolkit.Editor.asmdef using Guid(d1ed91b201c9bcb438fa1a248e0c6885) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a109fec9fe326dee7633bd71ed570b87') in 0.1657758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Materials/cheese slice.mat
+  artifactKey: Guid(2d975b6e59c94b8488d31b0d794b2d13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Materials/cheese slice.mat using Guid(2d975b6e59c94b8488d31b0d794b2d13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6269302e86a423b01d5af47c1772099') in 0.1612943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TMI - Kitchen/Models/fork.png
+  artifactKey: Guid(d91e74f19dac018449507259f5b2c9a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TMI - Kitchen/Models/fork.png using Guid(d91e74f19dac018449507259f5b2c9a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b796363a624ac6b73516e1cb3836757b') in 0.0525798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Pizza.cs
+  artifactKey: Guid(40e87d8b0180c8f49909e6a030c1a941) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Scripts/Pizza.cs using Guid(40e87d8b0180c8f49909e6a030c1a941) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8632333e5b627e5b67260dbd6ffa9cb1') in 0.0162596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/Rope.mat
+  artifactKey: Guid(4fb23aef4c909cd4ba6a2362c72a2e69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/Rope.mat using Guid(4fb23aef4c909cd4ba6a2362c72a2e69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '927650c7f4989a4aa0abe5af34ae154f') in 0.4524839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/boot.mat
+  artifactKey: Guid(bd5761b0f7766824aa016cddf53b9e6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/boot.mat using Guid(bd5761b0f7766824aa016cddf53b9e6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '424de02f1307f032c6fcfc74953ac507') in 0.0196594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Textures/TexturesCom_Various0236_1_seamless_S_COLOR.png
+  artifactKey: Guid(72d8490a01c4e234c8a0aa9e4efa49de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Textures/TexturesCom_Various0236_1_seamless_S_COLOR.png using Guid(72d8490a01c4e234c8a0aa9e4efa49de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed96e2195ddeffa93aa89711160fa38a') in 0.0162838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/Fishing rod.mat
+  artifactKey: Guid(7767c9630a826a947a8d5621273f3173) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Materials/Fishing rod.mat using Guid(7767c9630a826a947a8d5621273f3173) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8b206789eef12c7ddfaf3f5be880140') in 0.0227326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepper slice.png
+  artifactKey: Guid(8dfca56728de26040a0a73c134bbaa05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepper slice.png using Guid(8dfca56728de26040a0a73c134bbaa05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccb4681be8e4d76634a2749fd9616c06') in 0.0201586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TMI - Kitchen/Materials/fridge_door.mat
+  artifactKey: Guid(82b56e2b4ce7c1d4797631c052e93e1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TMI - Kitchen/Materials/fridge_door.mat using Guid(82b56e2b4ce7c1d4797631c052e93e1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1524d35750d99a9966191fe8b6fe97a7') in 0.0219467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Normal.tga
+  artifactKey: Guid(5f57851effe206c45aae28016fc355fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Normal.tga using Guid(5f57851effe206c45aae28016fc355fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca0c784e0f38a9724299fa2d4a512cc7') in 0.0193052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Materials/Cars_1.mat
+  artifactKey: Guid(d1609d52f4f81da40955e6165cb60e78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Materials/Cars_1.mat using Guid(d1609d52f4f81da40955e6165cb60e78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8f9357e614208a5b9eec64421e4fb38') in 0.0334421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/Common/Materials/Skybox.mat
+  artifactKey: Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/Common/Materials/Skybox.mat using Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8329d28c78192f6d519cb43c98499c0d') in 0.6968009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/police.fbx
+  artifactKey: Guid(7d999852e2daee74aadd267cc7a2f71b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/police.fbx using Guid(7d999852e2daee74aadd267cc7a2f71b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deab886591d421fe8dfa9cb991c4b233') in 0.1344923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Sounds/Explosion.mp3
+  artifactKey: Guid(2638340574fe08e4ca49b88174dda3a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Sounds/Explosion.mp3 using Guid(2638340574fe08e4ca49b88174dda3a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75428a8d41872cd5dec9738ca487efd2') in 0.1737163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Prefabs/Key.prefab
+  artifactKey: Guid(cc5de5e674870ca479a40105f80555ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Prefabs/Key.prefab using Guid(cc5de5e674870ca479a40105f80555ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fc4ca34f719d39706791410cb3670e3') in 0.0474664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Materials/Explosion4.mat
+  artifactKey: Guid(10c03057446632e47841790eaaf2e302) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Materials/Explosion4.mat using Guid(10c03057446632e47841790eaaf2e302) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e85b07e26a9fb6b9b6866e1bc2ea5f10') in 0.0357163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Materials/lp_houses.mat
+  artifactKey: Guid(7f80e6639dadee7419f91b4059c4c127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Materials/lp_houses.mat using Guid(7f80e6639dadee7419f91b4059c4c127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cdd730e7e0c8a88d34b160e7dc150b3') in 0.0576463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/truckFlat.fbx
+  artifactKey: Guid(675210c1f99945a488fb28f7fed574fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Models/truckFlat.fbx using Guid(675210c1f99945a488fb28f7fed574fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c6473ac5af75c2da402aed13c7f539b') in 0.0805369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/bedDouble.fbx
+  artifactKey: Guid(9faf1464fd07624459ab5b6f60c51d6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/bedDouble.fbx using Guid(9faf1464fd07624459ab5b6f60c51d6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1015481a5c325d763040b94729726dda') in 0.5168168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_grass.mat
+  artifactKey: Guid(e367a56259a5daa40923fdd00de88a8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_grass.mat using Guid(e367a56259a5daa40923fdd00de88a8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf0cdfcdd7acbd5a499f1d03bd38ce45') in 0.0213696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/bedSingle.fbx
+  artifactKey: Guid(f66dafed77d71bb459e1051636b4945a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/bedSingle.fbx using Guid(f66dafed77d71bb459e1051636b4945a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae4dd84d96571fce7b1aea2a1ad5c176') in 0.0291746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Models/rock_05.fbx
+  artifactKey: Guid(2b8781c3835088f4f9858cc867eb6084) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Models/rock_05.fbx using Guid(2b8781c3835088f4f9858cc867eb6084) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47a496bcd472bb464e2ce44a0480836f') in 0.0275106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Radar.prefab
+  artifactKey: Guid(8c26e389c6315304bab5e8ad15ba0806) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + FSM - Radar/Prefabs/Radar.prefab using Guid(8c26e389c6315304bab5e8ad15ba0806) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cae72ef50af68bf3f979b8327f3d5ea') in 0.0351395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/FSM demo (code)/NavMesh.asset
+  artifactKey: Guid(9e40a789357b42f4f8b37e25022c08c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/FSM demo (code)/NavMesh.asset using Guid(9e40a789357b42f4f8b37e25022c08c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f7a1166004517d7cd096755a55f400f') in 0.0175166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Models/model_test boy.fbx
+  artifactKey: Guid(0d1e87bf50d28154692bae65a9c5e2bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Models/model_test boy.fbx using Guid(0d1e87bf50d28154692bae65a9c5e2bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2731ef6d45a1963d1e2646b496143afe') in 0.0217712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TMI - Kitchen/Models/fork.mtl
+  artifactKey: Guid(afcb6d1229ce8604cb1332cbdaa75afe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TMI - Kitchen/Models/fork.mtl using Guid(afcb6d1229ce8604cb1332cbdaa75afe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '701d0dad69e939cb5974489f0a00a4a9') in 0.0094485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Materials/SkyboxProcedural.mat
+  artifactKey: Guid(dce25ada87405a64c943cc71f7db0f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/SkyboxProcedural.mat using Guid(dce25ada87405a64c943cc71f7db0f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2bf60d7777135146fc59c069d07db51') in 0.0259394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_cube.mat
+  artifactKey: Guid(21d8959d3b85c774ea1da7a8dd1260d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Materials/m_cube.mat using Guid(21d8959d3b85c774ea1da7a8dd1260d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dfc45e3aef69304836d63cf3e59160c') in 0.0228401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GoldenFrame_Terminal_FREE/Materials/GoldenFrame_Terminal_FREE.mat
+  artifactKey: Guid(825bec9378b367144bdd8b1bd7d91292) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GoldenFrame_Terminal_FREE/Materials/GoldenFrame_Terminal_FREE.mat using Guid(825bec9378b367144bdd8b1bd7d91292) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fb63ba692e74a6c08cb7aea253edd6a') in 0.0139702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Wood Door Pack/Texture/Door_7/Door_7_AO.tga
+  artifactKey: Guid(f4ae0a6d4f77d5f44903b32adf6e4283) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Texture/Door_7/Door_7_AO.tga using Guid(f4ae0a6d4f77d5f44903b32adf6e4283) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd551246bbcf6d95e1f8580ea2f60a77d') in 0.018511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Black.mat
+  artifactKey: Guid(52a3747c6aad15c4d9fad3fa695a530a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Black.mat using Guid(52a3747c6aad15c4d9fad3fa695a530a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '207bbeccd6d8de690f8cecb454873c65') in 0.040109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyLivingRoomPack_URP_FREE/HDRP/LowPolyLivingRoomPack_HDRP_FREE.unitypackage
+  artifactKey: Guid(ed8c860b95f6c4a4e97fa0fed15cd821) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyLivingRoomPack_URP_FREE/HDRP/LowPolyLivingRoomPack_HDRP_FREE.unitypackage using Guid(ed8c860b95f6c4a4e97fa0fed15cd821) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cfd70954cf095052e3a2e169ffeba28') in 0.0111401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Animator Controller/AC_Chicken.controller
+  artifactKey: Guid(7eb808b6f960418458f057ae848e4182) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Animator Controller/AC_Chicken.controller using Guid(7eb808b6f960418458f057ae848e4182) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b75ebf446353b0befa597c18ac2f2add') in 0.0122411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/SmartObjects.unity
+  artifactKey: Guid(559e45f799aec5f4eab3dee9b80b5235) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/SmartObjects.unity using Guid(559e45f799aec5f4eab3dee9b80b5235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '791567926e848ee0fd9df0c981d98897') in 0.8669103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Milk.mat
+  artifactKey: Guid(32669d36e5f167246bf99094331606b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Milk.mat using Guid(32669d36e5f167246bf99094331606b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abda2c70d49e64ebaa461fe0e318f7c9') in 0.0263476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450178 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/cabinetTelevision.fbx
+  artifactKey: Guid(0d92114261d5fa049b81bf3c941a7771) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/cabinetTelevision.fbx using Guid(0d92114261d5fa049b81bf3c941a7771) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84608baeb46117bcbda434e8612d241') in 0.0517568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/kitchenCabinet.fbx
+  artifactKey: Guid(003db1db3ecd05f4b8f0617af1121d38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/kitchenCabinet.fbx using Guid(003db1db3ecd05f4b8f0617af1121d38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b7772de5704f1b5cf025af5c6f7bb1a') in 0.0401463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/trashcan.fbx
+  artifactKey: Guid(3dd5123c770a200459ff29f6db8531a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/trashcan.fbx using Guid(3dd5123c770a200459ff29f6db8531a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89a511d91486ddb82d704fec613c01e1') in 0.0308996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/computerMouse.fbx
+  artifactKey: Guid(a3b9c61430daf1c4fa292f79e9a1eeac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/computerMouse.fbx using Guid(a3b9c61430daf1c4fa292f79e9a1eeac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '145d8210e35bb70af796d6158f578439') in 0.0289647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableCoffeeGlass.fbx
+  artifactKey: Guid(6ca3c87aa907f434cb73156b3785c574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableCoffeeGlass.fbx using Guid(6ca3c87aa907f434cb73156b3785c574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82c25b08ea6ae64c677a7e1c5672eb08') in 0.0240483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/lampSquareTable.fbx
+  artifactKey: Guid(630374c3506ba6446897876f2ecdbe6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/lampSquareTable.fbx using Guid(630374c3506ba6446897876f2ecdbe6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3b131f7bf1ea1e253c1edc88cab5526') in 0.0323767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Bookshelf.prefab
+  artifactKey: Guid(a51e2e16a0ccb754ba291fb1230e243f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Bookshelf.prefab using Guid(a51e2e16a0ccb754ba291fb1230e243f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2f2fc970008deaf551e77d81b2bf861') in 0.0373014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_CoffeeMachine.prefab
+  artifactKey: Guid(496ad4d9c8ad76849aa5bec88911856a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_CoffeeMachine.prefab using Guid(496ad4d9c8ad76849aa5bec88911856a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4b1c0d58dff5cf0ffea2d49cf2805ee') in 0.0434866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/SmartObjects/NavMesh.asset
+  artifactKey: Guid(64d384731b390c640affba76d5e6158f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/SmartObjects/NavMesh.asset using Guid(64d384731b390c640affba76d5e6158f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a999930163ac1c49fb56e317d36bc91') in 0.0201406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableGlass.fbx
+  artifactKey: Guid(4a3e2fd7f8ef0e24293587460e9ec8a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/tableGlass.fbx using Guid(4a3e2fd7f8ef0e24293587460e9ec8a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30700016803bc051d776add6c330dae9') in 0.0277295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Milk.prefab
+  artifactKey: Guid(3a79436fea580ba40b4dc01ce9c963a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Milk.prefab using Guid(3a79436fea580ba40b4dc01ce9c963a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b75b4ac376add9dd85f78682c4748c05') in 0.0634772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Yellow.prefab
+  artifactKey: Guid(93aa57c473e4a58409e5b960c037c3f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Yellow.prefab using Guid(93aa57c473e4a58409e5b960c037c3f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15c56bcbb2ae74a0773b37cbea782480') in 0.0742787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Yellow.prefab
+  artifactKey: Guid(d5ce81421cfa9604fb2b954d495656ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Yellow.prefab using Guid(d5ce81421cfa9604fb2b954d495656ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c58f82c2f43007c13bd42722fbb06ac') in 0.151828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_White.prefab
+  artifactKey: Guid(36defb2fe38bb524fa3833998b45dccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_White.prefab using Guid(36defb2fe38bb524fa3833998b45dccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3174d47fa7cc3f373737be8e2d665a1e') in 0.0320005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab
+  artifactKey: Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab using Guid(ffd2ccccea67e9c4096d3fc6f17e5434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '072aa35758c662bae8bf7ccb0015a27d') in 0.3187713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/CompositeNode.cs
+  artifactKey: Guid(39ed96f8ba4f11f44b1da738b8c4a395) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/CompositeNode.cs using Guid(39ed96f8ba4f11f44b1da738b8c4a395) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88b0fce149d8aa2152c0af24a86edef9') in 0.0310307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Black.prefab
+  artifactKey: Guid(093fb121e2538504ba53a037cd38e16b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Black.prefab using Guid(093fb121e2538504ba53a037cd38e16b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9157ea18f8419115753e779c6d9e3572') in 0.0303233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_White.prefab
+  artifactKey: Guid(4ef963e0884b85747ae4641402f3ab74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_White.prefab using Guid(4ef963e0884b85747ae4641402f3ab74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fd7499f83bbf6b82d162936fd3794d9') in 0.0342305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Yellow.prefab
+  artifactKey: Guid(7ec647577111f35458de7e638e84f9cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Yellow.prefab using Guid(7ec647577111f35458de7e638e84f9cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d57270b66e2d8d854ed8909bd88d0b9') in 0.0807768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Perceptions/OrPerception.cs
+  artifactKey: Guid(29323d8b251b8d24f9a75d3e5b0b7fa2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Perceptions/OrPerception.cs using Guid(29323d8b251b8d24f9a75d3e5b0b7fa2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8e7cf52c529d6fe7497a69f17de9fb') in 0.009114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/MissingActionException.cs
+  artifactKey: Guid(1816936d47eb5b4458a871bf8c1fbf93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/MissingActionException.cs using Guid(1816936d47eb5b4458a871bf8c1fbf93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0504dd954762a268cb541435d6f62b5') in 0.0112047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/MissingChildException.cs
+  artifactKey: Guid(152322aff6a33d8478c5277d9a1813cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/Core/Exceptions/MissingChildException.cs using Guid(152322aff6a33d8478c5277d9a1813cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9ad7e77799b7262cfde8818202e95d9') in 0.0090556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/LoopNode.cs
+  artifactKey: Guid(2712c6177586f274d8239ff9a48e5bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Decorators/LoopNode.cs using Guid(2712c6177586f274d8239ff9a48e5bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd661bafca77f7a092644436caf9812d0') in 0.0101662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/SelectorNode.cs
+  artifactKey: Guid(3a2d4d1dff12f954cae3f052ab8748df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/BehaviourTrees/Composites/SelectorNode.cs using Guid(3a2d4d1dff12f954cae3f052ab8748df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6b1ec7e76c69a052336327924f30997') in 0.0108648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Yellow.prefab
+  artifactKey: Guid(2acd751e1e00b904c951df86ca90993a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Yellow.prefab using Guid(2acd751e1e00b904c951df86ca90993a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d3e23f480cdd50f501c59d8ade1217e') in 0.1181962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Coffe.prefab
+  artifactKey: Guid(3cb7a9fd1c4a69440b85c4094b56382b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Coffe.prefab using Guid(3cb7a9fd1c4a69440b85c4094b56382b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9db95eef59ada156eb97da7f7320d693') in 0.5326311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/Factor.cs
+  artifactKey: Guid(59cfbdd9b5aef1e48914f61c87add909) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/Factor.cs using Guid(59cfbdd9b5aef1e48914f61c87add909) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ba9d1fde80b30c3cc519e286a50214d') in 0.0104921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab
+  artifactKey: Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab using Guid(0456882ebacfb074f93134e3ae2b40ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '637226e483a8be5e392a1248af41cc88') in 0.0322901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Milk.prefab
+  artifactKey: Guid(43b8c455684f91f4ca6359dbb120c1d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Milk.prefab using Guid(43b8c455684f91f4ca6359dbb120c1d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5613672673233f5be876aa464856ceb') in 0.0998508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_White.prefab
+  artifactKey: Guid(a119e130096f5df45a4eefc45b1a0264) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_White.prefab using Guid(a119e130096f5df45a4eefc45b1a0264) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69a204ca902a35c860d6e2263bb0ba1e') in 0.0334266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Venge.prefab
+  artifactKey: Guid(ad97b08dd33aa13429643798adbdb781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Venge.prefab using Guid(ad97b08dd33aa13429643798adbdb781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1438431a1c2a3292a9fbb457b92fbeeb') in 0.0474758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Yellow.prefab
+  artifactKey: Guid(9648c4be13ca59a4fb45c4f8b4d3900e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Yellow.prefab using Guid(9648c4be13ca59a4fb45c4f8b4d3900e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43c0020491d57f34cca0e13deeee4e3a') in 0.0318208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Venge.prefab
+  artifactKey: Guid(cbadd0ff450ed6f4d8d7f4224f6d0414) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Venge.prefab using Guid(cbadd0ff450ed6f4d8d7f4224f6d0414) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd24d5aad0690e96e400d76739f84c34c') in 0.0332185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/doorwayOpen.fbx
+  artifactKey: Guid(def52cadcb2f1aa44a50b735cf870439) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/doorwayOpen.fbx using Guid(def52cadcb2f1aa44a50b735cf870439) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83a2f9c1c3a9baa571b15e433eadf865') in 0.0229198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Seat.prefab
+  artifactKey: Guid(bc1a9d7970a39ff4faf7d95ac373db89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Seat.prefab using Guid(bc1a9d7970a39ff4faf7d95ac373db89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2486efe97afa161d3492294efd857d6c') in 0.0942802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Venge.prefab
+  artifactKey: Guid(0555de4e7eda6e84c8a5ff79063ea065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Venge.prefab using Guid(0555de4e7eda6e84c8a5ff79063ea065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80579e67110a02b4358744c31f9e7896') in 0.0321438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_White.prefab
+  artifactKey: Guid(cb7fc40e140acda4b86d949e1daa43b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_White.prefab using Guid(cb7fc40e140acda4b86d949e1daa43b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d02129eb89286b1cc8b1857da722f6a') in 1.0569966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/lampSquareFloor.fbx
+  artifactKey: Guid(f9cf0dcfa3c76104aa593d764003995b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/lampSquareFloor.fbx using Guid(f9cf0dcfa3c76104aa593d764003995b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '849d41c600658a3618247da91ee0e7c3') in 0.021881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Venge.prefab
+  artifactKey: Guid(2979c9562e68d5347bf6a7b4b8d6e196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Venge.prefab using Guid(2979c9562e68d5347bf6a7b4b8d6e196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd66e101813d0bf2bbb44d5fbbf4224a9') in 0.0307359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Coffe.prefab
+  artifactKey: Guid(8d2b4f557279c1542b6ad6bf588621bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Coffe.prefab using Guid(8d2b4f557279c1542b6ad6bf588621bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4df6528fdc7e19554461bfb16a31f61e') in 0.0261578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/CameraController.cs
+  artifactKey: Guid(105d09c5890f3c344b7c5c8b73e4baab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/CameraController.cs using Guid(105d09c5890f3c344b7c5c8b73e4baab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd61f7cf82cb8a7323b356272632ee799') in 0.0113531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Toaster.prefab
+  artifactKey: Guid(b8d75a2051382a84e8e61f32efbd3067) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Prefabs/SO_Toaster.prefab using Guid(b8d75a2051382a84e8e61f32efbd3067) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c076c145a7b601115b3b2c80761c0249') in 0.8939856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SeatRequestAction.cs
+  artifactKey: Guid(4d40c411670549045aa97244ae27472b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SeatRequestAction.cs using Guid(4d40c411670549045aa97244ae27472b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51cff024009c4b853dae176c2686c3fc') in 0.0103589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/doorwayFront.fbx
+  artifactKey: Guid(39b2089b5cbe8d9409cc4f433141f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Models/doorwayFront.fbx using Guid(39b2089b5cbe8d9409cc4f433141f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '125ca05b2eb79a6af982927b48bd6b69') in 0.0282414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab
+  artifactKey: Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab using Guid(83b0e1aa6fd302d48bf48b1a30f9031c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd4fb4ee5c7cf43e3d889bfcfb6edde2') in 0.0307768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab
+  artifactKey: Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab using Guid(7813b0adcc8b7bd42a85149ab445129f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbf52077d92214f85d4502545d164f01') in 0.0336408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Milk.prefab
+  artifactKey: Guid(44921e7d1bcb4ec45ab64183de0f0dce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Milk.prefab using Guid(44921e7d1bcb4ec45ab64183de0f0dce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e194b2e3ce88fab5e57404d01c09e13') in 0.0333129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Debugging/BSRuntimeDebugger.cs
+  artifactKey: Guid(f1726e9fdb9ff2d4baa8710d607b31ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Runtime/Debugging/BSRuntimeDebugger.cs using Guid(f1726e9fdb9ff2d4baa8710d607b31ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a39aa66c3f0360ce168174cf103c8b5') in 0.0103614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.710221 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/Data/InteractionMap.cs
+  artifactKey: Guid(805629190f3a87543aedf472d73ee9a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/Data/InteractionMap.cs using Guid(805629190f3a87543aedf472d73ee9a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cfd674391b2cc0f2eda344407f756a8') in 0.3042189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BathroomDrawerSmartObject.cs
+  artifactKey: Guid(ee646585855738f46997c5ff80de7d2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BathroomDrawerSmartObject.cs using Guid(ee646585855738f46997c5ff80de7d2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '520953c2dc2691ae8a352f39889798af') in 0.0102824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/PlayerBTInFSMRunner.cs
+  artifactKey: Guid(ea99ffc61ea3906498e96d2227f13753) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/PlayerBTInFSMRunner.cs using Guid(ea99ffc61ea3906498e96d2227f13753) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19c3a02d501a632dc4b887eb1cc38da1') in 0.0131447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Scripts/BehaviourRunners/PlayerFSMEditorRunner.cs
+  artifactKey: Guid(241376c416925ec48905178fad6bae11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM - Chicken run/Scripts/BehaviourRunners/PlayerFSMEditorRunner.cs using Guid(241376c416925ec48905178fad6bae11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0974cc49886a18778e8eb357da049ca') in 0.0104696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/ingredients/tomatobase.asset
+  artifactKey: Guid(42c417143ccf45d45a802773e120696e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/ingredients/tomatobase.asset using Guid(42c417143ccf45d45a802773e120696e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0adb7944523c151f8a79869cb67c343a') in 0.0255389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/BadBoyRunner.cs
+  artifactKey: Guid(1f52dda2b7ef2aa448eab6095fb67334) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/FSM + BT - House and Enemy/Scripts/BehaviourRunners/BadBoyRunner.cs using Guid(1f52dda2b7ef2aa448eab6095fb67334) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d8a81e57bd46699951b924ee7570db1') in 0.0112174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/CustomCurveFactor.cs
+  artifactKey: Guid(ae425b964e69d664f81c403cb17b4e3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/CustomCurveFactor.cs using Guid(ae425b964e69d664f81c403cb17b4e3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98e8e0e78388ebfa87c24998641bf764') in 0.0103623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_broom_brush.mat
+  artifactKey: Guid(a55423c3fd9440341a2a7ecc6e7b5568) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_broom_brush.mat using Guid(a55423c3fd9440341a2a7ecc6e7b5568) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21268ae1d09fdd5e1f2e4222f01b4477') in 0.0324636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Utils/CreateScriptUtils.cs
+  artifactKey: Guid(8bbdb0fd199b5bf4581bbfac1b649035) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Utils/CreateScriptUtils.cs using Guid(8bbdb0fd199b5bf4581bbfac1b649035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c915624cb9910f533cd538bfb159d532') in 0.0113108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Metadata/EditorHierarchyNode.cs
+  artifactKey: Guid(50ddd5a511b1856459b793a8ae0110c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Metadata/EditorHierarchyNode.cs using Guid(50ddd5a511b1856459b793a8ae0110c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a814ae870ec657facccf0ec1f91675d3') in 0.0133048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/BehaviourRunners/DemoSOUtilityRunner.cs
+  artifactKey: Guid(3b98e33bf120bf045992d1576fdf2bdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/BehaviourRunners/DemoSOUtilityRunner.cs using Guid(3b98e33bf120bf045992d1576fdf2bdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3e762630f3ef77484abe9419489fefa') in 0.0104115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/CurveFactor.cs
+  artifactKey: Guid(7f75a65eca0095b45b46f06810791a97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/C# API/UtilitySystems/Factors/CurveFactors/CurveFactor.cs using Guid(7f75a65eca0095b45b46f06810791a97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '883f5efb2cb7ba2a5c2452ce925e61a8') in 0.0117148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/recipes/vegetarian.asset
+  artifactKey: Guid(dd625effc1a48564fba80b8d693bb104) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/recipes/vegetarian.asset using Guid(dd625effc1a48564fba80b8d693bb104) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b16572c09ae1588e631727bdff464f50') in 0.0381233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Scripts/BehaviourRunners/FishingBoyBTRunner.cs
+  artifactKey: Guid(522af01c54539514dba19c7e1ff29d1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - Fishing/Scripts/BehaviourRunners/FishingBoyBTRunner.cs using Guid(522af01c54539514dba19c7e1ff29d1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12f9a02b36eaead703921a7309b814bf') in 0.0121544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_red.mat
+  artifactKey: Guid(20a91f812f0a4b24b951c38eae6fa586) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_red.mat using Guid(20a91f812f0a4b24b951c38eae6fa586) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db7ae644ffd6f66f7a49a36cca68f019') in 0.0137485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_black.mat
+  artifactKey: Guid(c8bbd12ca3d3fef4a899be3786489751) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_black.mat using Guid(c8bbd12ca3d3fef4a899be3786489751) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7721e6de5c51683cebf23d71a2402ee2') in 0.0124734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/StackFSMAdapter.cs
+  artifactKey: Guid(da83abaac87822a499ac48919c70d763) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/GraphAdapters/StackFSMAdapter.cs using Guid(da83abaac87822a499ac48919c70d763) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd9d086c8edb00a736a8c3ab56c4d9d') in 0.0146787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_grey.mat
+  artifactKey: Guid(6e9adcf470a479f4e94c8749e9a66a1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_grey.mat using Guid(6e9adcf470a479f4e94c8749e9a66a1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47b3624b1ab5697cfe13d489bae07adc') in 0.0127201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-kitchenBase_base.mat
+  artifactKey: Guid(898b7e19b43282c438519f8813e5e6b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-kitchenBase_base.mat using Guid(898b7e19b43282c438519f8813e5e6b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cab58843a897d7828560150f54fcba8') in 0.0135094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/BehaviourTreeCodeGenerator.cs
+  artifactKey: Guid(ef5b8b9888b89c14b99829d294a89605) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/BehaviourTreeCodeGenerator.cs using Guid(ef5b8b9888b89c14b99829d294a89605) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15b649f5391ee6e7d2473bf4ddacde4e') in 0.0118984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-chukies_02.mat
+  artifactKey: Guid(be0d3971ba47f2d4ba67871f5405a96b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-chukies_02.mat using Guid(be0d3971ba47f2d4ba67871f5405a96b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24074ada33baf2d1c4cad2058fda0652') in 0.0118964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/DirectSmartObject.cs
+  artifactKey: Guid(3613db4bef4653f43b30278a70d22beb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/DirectSmartObject.cs using Guid(3613db4bef4653f43b30278a70d22beb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '466bf327dfd8fa8880a357cb2ea01b63') in 0.5311301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/GraphIdentificatorDrawer.cs
+  artifactKey: Guid(d5932bbef99640342bd58e6a005cccf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/GraphIdentificatorDrawer.cs using Guid(d5932bbef99640342bd58e6a005cccf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbd527c2b88c98a3a76b10de9688bff5') in 0.0132984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/NodeDrawers/UtilityNodeDrawer.cs
+  artifactKey: Guid(54052284ce8291b459df3bd728e87048) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Graph/NodeDrawers/UtilityNodeDrawer.cs using Guid(54052284ce8291b459df3bd728e87048) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8fa77ebbb3a17c9d59ad92c49a6325b') in 0.0144837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_red.mat
+  artifactKey: Guid(5b611532836b1fc44a1fa3e59eb7cd41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_red.mat using Guid(5b611532836b1fc44a1fa3e59eb7cd41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3df6bde31c41cf4dbde8743d7d88a44') in 0.0119229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ComputerDesktopSmartObject.cs
+  artifactKey: Guid(3bef8a47159567e47991ced089b4f57b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/ComputerDesktopSmartObject.cs using Guid(3bef8a47159567e47991ced089b4f57b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd0fa949b6078bf805a88087a5af329') in 0.0103257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uxml/Windows/alertwindow.uxml
+  artifactKey: Guid(1719b4f5842a6fd489b43787651390af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uxml/Windows/alertwindow.uxml using Guid(1719b4f5842a6fd489b43787651390af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1ff3aa7036afabf8534b628b0bd423c') in 1.2074499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_childDrawing_01.mat
+  artifactKey: Guid(1906264a40c1b994598189dc9a78d1c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/dif_childDrawing_01.mat using Guid(1906264a40c1b994598189dc9a78d1c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '359d3108e334559ec5c0636adef37f04') in 0.0106428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/RequestAction/NeedRequestAction.cs
+  artifactKey: Guid(755bb958a7b0d3b43bfd51439bf9b13c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Behaviour API/UnityToolkit/SmartObjects/RequestAction/NeedRequestAction.cs using Guid(755bb958a7b0d3b43bfd51439bf9b13c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '286e8ee2203791bc9e721a6534ebe432') in 0.0116317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brushBottom.mat
+  artifactKey: Guid(385a8f20e8d250240a0138d96ca7a6fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brushBottom.mat using Guid(385a8f20e8d250240a0138d96ca7a6fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd54ef512d0fb0f2f4bbba71aca15acf2') in 0.0131028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_03.mat
+  artifactKey: Guid(39df5f391b37bfa43804265b8a4141a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_03.mat using Guid(39df5f391b37bfa43804265b8a4141a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4dd385e064fdee2a0944b9b606a54d90') in 0.0133904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_condenser.mat
+  artifactKey: Guid(bcab62dd50756dd459fd79859b34a0ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/fridge_01-fridge_01_condenser.mat using Guid(bcab62dd50756dd459fd79859b34a0ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe12d865b7baf4d24fb07ebb2847dcc2') in 0.0120262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BedSmartObject.cs
+  artifactKey: Guid(5077e7c802fe5114e84c6fdb9732c4f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BedSmartObject.cs using Guid(5077e7c802fe5114e84c6fdb9732c4f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18b4d12505d743f3f9c4fc6792a58ee5') in 0.0113827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BathubSmartObject.cs
+  artifactKey: Guid(84149b24f02f7624a92b1f14722a221a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/SmartObjects/Scripts/SmartObjects/BathubSmartObject.cs using Guid(84149b24f02f7624a92b1f14722a221a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9668e4f0c8deed854a359b03b9ea7501') in 0.0116899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Utils/VisualElementExtensions.cs
+  artifactKey: Guid(bf6f4dced6d96e94b949be2dda12f783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Utils/VisualElementExtensions.cs using Guid(bf6f4dced6d96e94b949be2dda12f783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7557af671a2d48b6efc2c22c42367477') in 0.0107177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Perceptions/CustomPerception.cs
+  artifactKey: Guid(79482edc4bfe11449b3df8fa326e913a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Adaptations/Perceptions/CustomPerception.cs using Guid(79482edc4bfe11449b3df8fa326e913a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c994ba6d560ac986e1af14b38350eb4') in 0.0134758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/CompoundActionDrawer.cs
+  artifactKey: Guid(7298b7f9673a7874fa61c0a91ece92fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/CompoundActionDrawer.cs using Guid(7298b7f9673a7874fa61c0a91ece92fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c7f47b7910533d6bc78bbc412d0c9a4') in 0.0124019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pepperoni slice.prefab
+  artifactKey: Guid(60d4eb2b7d106b84a95cb88acaf58777) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Prefabs/Ingredients/Pepperoni slice.prefab using Guid(60d4eb2b7d106b84a95cb88acaf58777) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3331753826ddd64a435b0fc3892dab59') in 0.8669655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/Elements/PushPerceptionData.cs
+  artifactKey: Guid(4b83aedf1a60f59478acf3b056df3bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Framework/Data/Elements/PushPerceptionData.cs using Guid(4b83aedf1a60f59478acf3b056df3bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70c52c3e5ce33df29623d30923b4f376') in 0.0096901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/SerializedMethodPropertyDrawer.cs
+  artifactKey: Guid(40034637c0c02a846b67191baaef7bc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/Inspectors/PropertyDrawers/SerializedMethodPropertyDrawer.cs using Guid(40034637c0c02a846b67191baaef7bc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '027247a5e657af237561e695c1682d60') in 0.0118781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/trashBag.mat
+  artifactKey: Guid(ac0ba7a83faba3d4f87f9ad7cae189e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Models/kitchen_creation_kit/Materials/trashBag.mat using Guid(ac0ba7a83faba3d4f87f9ad7cae189e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b72638c529484afb6cfe9c0122e0f368') in 0.0117767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepperoni slice-assets/pepperoni slice.png
+  artifactKey: Guid(bd970d5ff09194f4195b61cb6e0843bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Textures/pepperoni slice-assets/pepperoni slice.png using Guid(bd970d5ff09194f4195b61cb6e0843bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '013bf8084f3b41fc660b9e15b5e7bd03') in 1.2624442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/UtilitySystemCodeGenerator.cs
+  artifactKey: Guid(cecffb5a32770eb4ba1f31b72518c9c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Scripts/CodeGeneration/GraphGenerators/UtilitySystemCodeGenerator.cs using Guid(cecffb5a32770eb4ba1f31b72518c9c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5799482acd35a75196f9ea571bc305f6') in 0.1045797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/ingredients/mushroom.asset
+  artifactKey: Guid(18e2dcad3b563e04894dac5d06cd0b0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT + FSM + US - Pizza/Resources/ingredients/mushroom.asset using Guid(18e2dcad3b563e04894dac5d06cd0b0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60b4ad08c7f1c893eedc9286ca3fbc53') in 0.0120317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/BehaviourRunners/BoyBTRunner.cs
+  artifactKey: Guid(85cb27fcedf31194b912dd04c361542e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/Demo/BT - House/Scripts/BehaviourRunners/BoyBTRunner.cs using Guid(85cb27fcedf31194b912dd04c361542e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d51fc9cff210221b0229bdb7f6249ba') in 0.0115997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uss/node.uss
+  artifactKey: Guid(81512d53a4bea9b4494135dc1f99b76f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uss/node.uss using Guid(81512d53a4bea9b4494135dc1f99b76f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ad45538ab11cb9f15c94bc9df4e99a1') in 0.0119749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uxml/Elements/functiondisplay.uxml
+  artifactKey: Guid(5c6982e6492e89043b29b18f2ef90054) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourAPI Unity Package/GUI Designer/Editor/Resources/uxml/Elements/functiondisplay.uxml using Guid(5c6982e6492e89043b29b18f2ef90054) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7f88940806dc8e4a3a1a01c403f8c25') in 0.0214874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 641.152576 seconds.
+  path: Assets/Unity.VisualScripting.Generated
+  artifactKey: Guid(a6bfd734b54e63047a8493efaa8c4524) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Unity.VisualScripting.Generated using Guid(a6bfd734b54e63047a8493efaa8c4524) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efc3ce817a7d875e22971beca0b31c01') in 0.0118165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1127.065973 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b085148e68a704b19cfa09446577fb5d') in 0.0196876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2168.604293 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e15a3978b52a97bf51730de6badae2') in 0.0154438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6398 unused Assets / (6.6 MB). Loaded Objects now: 7079.
+Memory consumption went from 134.2 MB to 127.6 MB.
+Total: 37.159400 ms (FindLiveObjects: 1.208000 ms CreateObjectMapping: 1.210200 ms MarkObjects: 29.979200 ms  DeleteObjects: 4.760800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.245 seconds
+Domain Reload Profiling: 1994ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (137ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (758ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (5.9 MB). Loaded Objects now: 7095.
+Memory consumption went from 146.7 MB to 140.8 MB.
+Total: 8.473700 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 0.710700 ms MarkObjects: 4.081300 ms  DeleteObjects: 3.042300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 1625ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1039ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (763ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.0 MB). Loaded Objects now: 7098.
+Memory consumption went from 148.6 MB to 142.6 MB.
+Total: 7.256600 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.366000 ms MarkObjects: 3.716800 ms  DeleteObjects: 2.544500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.036 seconds
+Domain Reload Profiling: 1604ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (763ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.2 MB). Loaded Objects now: 7101.
+Memory consumption went from 148.7 MB to 142.5 MB.
+Total: 7.880100 ms (FindLiveObjects: 0.668400 ms CreateObjectMapping: 0.376100 ms MarkObjects: 3.921500 ms  DeleteObjects: 2.913500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.3 MB). Loaded Objects now: 7101.
+Memory consumption went from 148.8 MB to 142.5 MB.
+Total: 10.038000 ms (FindLiveObjects: 0.666000 ms CreateObjectMapping: 0.330300 ms MarkObjects: 5.531000 ms  DeleteObjects: 3.509600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.587 seconds
+Domain Reload Profiling: 2291ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (1159ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (7.7 MB). Loaded Objects now: 7104.
+Memory consumption went from 148.7 MB to 141.0 MB.
+Total: 10.334100 ms (FindLiveObjects: 0.606700 ms CreateObjectMapping: 0.700500 ms MarkObjects: 3.935200 ms  DeleteObjects: 5.090800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (5.7 MB). Loaded Objects now: 7104.
+Memory consumption went from 148.9 MB to 143.1 MB.
+Total: 10.858600 ms (FindLiveObjects: 0.885300 ms CreateObjectMapping: 0.735700 ms MarkObjects: 5.833200 ms  DeleteObjects: 3.403500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.0 MB). Loaded Objects now: 7104.
+Memory consumption went from 148.9 MB to 142.9 MB.
+Total: 10.568300 ms (FindLiveObjects: 1.086900 ms CreateObjectMapping: 0.528400 ms MarkObjects: 5.623000 ms  DeleteObjects: 3.329300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 1660ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (910ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (761ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.1 MB). Loaded Objects now: 7107.
+Memory consumption went from 148.7 MB to 142.6 MB.
+Total: 7.397600 ms (FindLiveObjects: 0.609200 ms CreateObjectMapping: 0.359500 ms MarkObjects: 3.696000 ms  DeleteObjects: 2.732200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.2 MB). Loaded Objects now: 7107.
+Memory consumption went from 148.8 MB to 142.7 MB.
+Total: 7.804500 ms (FindLiveObjects: 0.633300 ms CreateObjectMapping: 0.417300 ms MarkObjects: 3.903300 ms  DeleteObjects: 2.849900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.059 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (932ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (772ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.3 MB). Loaded Objects now: 7110.
+Memory consumption went from 148.8 MB to 142.5 MB.
+Total: 8.103300 ms (FindLiveObjects: 0.621400 ms CreateObjectMapping: 0.698700 ms MarkObjects: 3.775400 ms  DeleteObjects: 3.007200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2058.259831 seconds.
+  path: Assets/Scripts/PacienteAPI.cs
+  artifactKey: Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacienteAPI.cs using Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd120c8216cd3f582832e3181c6628fc8') in 0.0016556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.1 MB). Loaded Objects now: 7110.
+Memory consumption went from 149.0 MB to 142.8 MB.
+Total: 7.787600 ms (FindLiveObjects: 0.632000 ms CreateObjectMapping: 0.420600 ms MarkObjects: 3.883200 ms  DeleteObjects: 2.851200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.175843 seconds.
+  path: Assets/Scripts/PacienteFSM.cs
+  artifactKey: Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacienteFSM.cs using Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854ecccebf716bf7b061a05db4c97d14') in 0.0005475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 1658ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1056ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (928ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (768ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.5 MB). Loaded Objects now: 7113.
+Memory consumption went from 148.8 MB to 142.3 MB.
+Total: 8.720100 ms (FindLiveObjects: 0.666100 ms CreateObjectMapping: 0.364400 ms MarkObjects: 4.408800 ms  DeleteObjects: 3.279800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.509650 seconds.
+  path: Assets/Scripts/PacienteFSM.cs
+  artifactKey: Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacienteFSM.cs using Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6bfd32f1460abc704efec6462d735ef') in 0.0013883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.1 MB). Loaded Objects now: 7113.
+Memory consumption went from 149.0 MB to 142.9 MB.
+Total: 10.838100 ms (FindLiveObjects: 0.790900 ms CreateObjectMapping: 0.627700 ms MarkObjects: 5.961500 ms  DeleteObjects: 3.457200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 164.386558 seconds.
+  path: Assets/Scripts/PacienteFSM.cs
+  artifactKey: Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacienteFSM.cs using Guid(7463156983a42d34eb5b04870c98d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1044aae69428b2482b79d35ed0a8dadf') in 0.0007317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.7 MB). Loaded Objects now: 7113.
+Memory consumption went from 149.0 MB to 142.3 MB.
+Total: 13.775500 ms (FindLiveObjects: 1.108000 ms CreateObjectMapping: 1.014500 ms MarkObjects: 6.805300 ms  DeleteObjects: 4.846500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.5 MB). Loaded Objects now: 7113.
+Memory consumption went from 149.0 MB to 142.5 MB.
+Total: 11.245600 ms (FindLiveObjects: 0.657700 ms CreateObjectMapping: 0.425100 ms MarkObjects: 5.519000 ms  DeleteObjects: 4.643000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1628ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (903ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.3 MB). Loaded Objects now: 7116.
+Memory consumption went from 148.8 MB to 142.6 MB.
+Total: 8.438600 ms (FindLiveObjects: 0.738600 ms CreateObjectMapping: 0.707300 ms MarkObjects: 3.929300 ms  DeleteObjects: 3.062400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.2 MB). Loaded Objects now: 7116.
+Memory consumption went from 149.0 MB to 142.9 MB.
+Total: 12.591600 ms (FindLiveObjects: 0.879000 ms CreateObjectMapping: 0.395300 ms MarkObjects: 6.887700 ms  DeleteObjects: 4.428400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.294 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (920ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.1 MB). Loaded Objects now: 7119.
+Memory consumption went from 148.9 MB to 142.8 MB.
+Total: 7.798500 ms (FindLiveObjects: 0.669000 ms CreateObjectMapping: 0.380300 ms MarkObjects: 4.048400 ms  DeleteObjects: 2.700200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.5 MB). Loaded Objects now: 7119.
+Memory consumption went from 149.1 MB to 142.6 MB.
+Total: 10.418400 ms (FindLiveObjects: 1.065800 ms CreateObjectMapping: 0.590800 ms MarkObjects: 4.945400 ms  DeleteObjects: 3.815500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.815 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.546 seconds
+Domain Reload Profiling: 2362ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (1157ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.2 MB). Loaded Objects now: 7122.
+Memory consumption went from 148.9 MB to 142.7 MB.
+Total: 11.361900 ms (FindLiveObjects: 1.013000 ms CreateObjectMapping: 0.907600 ms MarkObjects: 5.010900 ms  DeleteObjects: 4.429200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (7.4 MB). Loaded Objects now: 7122.
+Memory consumption went from 149.0 MB to 141.6 MB.
+Total: 13.291500 ms (FindLiveObjects: 0.752200 ms CreateObjectMapping: 0.392900 ms MarkObjects: 6.910900 ms  DeleteObjects: 5.234300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.1 MB). Loaded Objects now: 7122.
+Memory consumption went from 149.0 MB to 143.0 MB.
+Total: 10.339800 ms (FindLiveObjects: 1.194700 ms CreateObjectMapping: 0.625900 ms MarkObjects: 4.835100 ms  DeleteObjects: 3.683500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.893 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.611 seconds
+Domain Reload Profiling: 2502ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (1198ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.4 MB). Loaded Objects now: 7125.
+Memory consumption went from 149.0 MB to 142.5 MB.
+Total: 9.374400 ms (FindLiveObjects: 1.056300 ms CreateObjectMapping: 0.571800 ms MarkObjects: 4.110000 ms  DeleteObjects: 3.635300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.2 MB). Loaded Objects now: 7125.
+Memory consumption went from 149.1 MB to 142.9 MB.
+Total: 10.615800 ms (FindLiveObjects: 0.644100 ms CreateObjectMapping: 0.355300 ms MarkObjects: 5.848500 ms  DeleteObjects: 3.766400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.773 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.3 MB). Loaded Objects now: 7128.
+Memory consumption went from 149.0 MB to 142.7 MB.
+Total: 8.693300 ms (FindLiveObjects: 0.646700 ms CreateObjectMapping: 0.394200 ms MarkObjects: 4.086800 ms  DeleteObjects: 3.564700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1579ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (744ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.3 MB). Loaded Objects now: 7131.
+Memory consumption went from 149.0 MB to 142.7 MB.
+Total: 7.999100 ms (FindLiveObjects: 0.694000 ms CreateObjectMapping: 0.470200 ms MarkObjects: 3.955900 ms  DeleteObjects: 2.878200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.019 seconds
+Domain Reload Profiling: 1579ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.5 MB). Loaded Objects now: 7134.
+Memory consumption went from 149.1 MB to 142.6 MB.
+Total: 8.388800 ms (FindLiveObjects: 0.734800 ms CreateObjectMapping: 0.718800 ms MarkObjects: 3.885600 ms  DeleteObjects: 3.048800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 1575ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (891ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (741ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.2 MB). Loaded Objects now: 7137.
+Memory consumption went from 149.0 MB to 142.9 MB.
+Total: 7.939900 ms (FindLiveObjects: 0.812900 ms CreateObjectMapping: 0.442900 ms MarkObjects: 3.921400 ms  DeleteObjects: 2.762200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.4 MB). Loaded Objects now: 7137.
+Memory consumption went from 149.2 MB to 142.9 MB.
+Total: 8.808700 ms (FindLiveObjects: 0.787400 ms CreateObjectMapping: 0.451300 ms MarkObjects: 4.210500 ms  DeleteObjects: 3.358800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.043 seconds
+Domain Reload Profiling: 1634ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1044ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (918ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (762ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.2 MB). Loaded Objects now: 7140.
+Memory consumption went from 149.1 MB to 142.9 MB.
+Total: 8.453100 ms (FindLiveObjects: 0.629100 ms CreateObjectMapping: 0.341800 ms MarkObjects: 4.260700 ms  DeleteObjects: 3.220400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1595ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (892ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (741ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.0 MB). Loaded Objects now: 7143.
+Memory consumption went from 149.2 MB to 143.2 MB.
+Total: 7.618900 ms (FindLiveObjects: 0.645300 ms CreateObjectMapping: 0.400300 ms MarkObjects: 3.781300 ms  DeleteObjects: 2.791600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.5 MB). Loaded Objects now: 7143.
+Memory consumption went from 149.4 MB to 142.8 MB.
+Total: 10.909600 ms (FindLiveObjects: 0.619100 ms CreateObjectMapping: 0.821300 ms MarkObjects: 5.768600 ms  DeleteObjects: 3.699700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (5.6 MB). Loaded Objects now: 7143.
+Memory consumption went from 149.4 MB to 143.8 MB.
+Total: 9.854200 ms (FindLiveObjects: 1.126600 ms CreateObjectMapping: 0.581600 ms MarkObjects: 5.379600 ms  DeleteObjects: 2.765900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 1597ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.0 MB). Loaded Objects now: 7146.
+Memory consumption went from 149.2 MB to 143.2 MB.
+Total: 7.107200 ms (FindLiveObjects: 0.602600 ms CreateObjectMapping: 0.347600 ms MarkObjects: 3.628700 ms  DeleteObjects: 2.527900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1574ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1017ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.5 MB). Loaded Objects now: 7149.
+Memory consumption went from 149.3 MB to 142.7 MB.
+Total: 8.386500 ms (FindLiveObjects: 0.615800 ms CreateObjectMapping: 0.701900 ms MarkObjects: 3.824900 ms  DeleteObjects: 3.243300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6395 unused Assets / (6.2 MB). Loaded Objects now: 7149.
+Memory consumption went from 149.4 MB to 143.2 MB.
+Total: 11.640300 ms (FindLiveObjects: 0.804700 ms CreateObjectMapping: 0.527100 ms MarkObjects: 6.211900 ms  DeleteObjects: 4.095500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.594 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling: 1626ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1031ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (907ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (750ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (7.0 MB). Loaded Objects now: 7152.
+Memory consumption went from 149.2 MB to 142.2 MB.
+Total: 9.807400 ms (FindLiveObjects: 0.688500 ms CreateObjectMapping: 0.885100 ms MarkObjects: 4.540500 ms  DeleteObjects: 3.692600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.048 seconds
+Domain Reload Profiling: 1633ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1049ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (763ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.0 MB). Loaded Objects now: 7155.
+Memory consumption went from 149.3 MB to 143.4 MB.
+Total: 7.945100 ms (FindLiveObjects: 0.685100 ms CreateObjectMapping: 0.367700 ms MarkObjects: 3.878800 ms  DeleteObjects: 3.012900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.044 seconds
+Domain Reload Profiling: 1634ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1044ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6402 unused Assets / (6.1 MB). Loaded Objects now: 7158.
+Memory consumption went from 149.4 MB to 143.2 MB.
+Total: 9.021700 ms (FindLiveObjects: 0.675700 ms CreateObjectMapping: 0.716000 ms MarkObjects: 3.988500 ms  DeleteObjects: 3.640700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
